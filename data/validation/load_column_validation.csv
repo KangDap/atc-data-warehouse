@@ -1,0 +1,8 @@
+table_name,csv_columns,db_columns,is_column_match,missing_in_db,missing_in_csv
+dim_channel_pembelian,"id_channel, nama_channel, jenis_channel","id_channel, nama_channel, jenis_channel",True,,
+dim_lokasi,"id_lokasi, site_id, kelurahan, kecamatan, kabupaten_kota, provinsi, regional","id_lokasi, site_id, kelurahan, kecamatan, kabupaten_kota, provinsi, regional",True,,
+dim_pelanggan,"id_pelanggan, nomor_hp, nama_pelanggan, jenis_layanan, jenis_kartu, tanggal_registrasi, status_aktif","id_pelanggan, nomor_hp, nama_pelanggan, jenis_layanan, jenis_kartu, tanggal_registrasi, status_aktif",True,,
+dim_produk,"id_produk, kode_produk, nama_produk, jenis_produk, kategori_produk, harga","id_produk, kode_produk, nama_produk, jenis_produk, kategori_produk, harga",True,,
+dim_status_transaksi,"id_status, kode_status, deskripsi_status","id_status, kode_status, deskripsi_status",True,,
+dim_waktu,"id_waktu, tanggal_lengkap, hari, bulan, kuartal, tahun","id_waktu, tanggal_lengkap, hari, bulan, kuartal, tahun",True,,
+fact_transaksi_layanan,"id_fakta, id_waktu, id_pelanggan, id_produk, id_lokasi, id_channel, id_status, nomor_transaksi, jumlah_pembelian, total_harga, jumlah_data_mb, durasi_telpon_menit, jumlah_sms","id_fakta, id_waktu, id_pelanggan, id_produk, id_lokasi, id_channel, id_status, nomor_transaksi, jumlah_pembelian, total_harga, jumlah_data_mb, durasi_telpon_menit, jumlah_sms",True,,

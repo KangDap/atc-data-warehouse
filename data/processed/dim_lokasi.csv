@@ -24,7 +24,7 @@ id_lokasi,site_id,kelurahan,kecamatan,kabupaten_kota,provinsi,regional
 23,SITE-0023,Jatinegara,Jatinegara,Jakarta Timur,DKI Jakarta,Regional Jawa
 24,SITE-0024,Kramat Jati,Kramat Jati,Jakarta Timur,DKI Jakarta,Regional Jawa
 25,SITE-0025,Duren Sawit,Duren Sawit,Jakarta Timur,DKI Jakarta,Regional Jawa
-26,SITE-0026,Tidak Diketahui,Coblong,Kota Bandung,Jawa Barat,Regional Jawa
+26,SITE-0026,Unknown,Coblong,Kota Bandung,Jawa Barat,Regional Jawa
 27,SITE-0027,Cicendo,Cicendo,Kota Bandung,Jawa Barat,Regional Jawa
 28,SITE-0028,Andir,Andir,Kota Bandung,Jawa Barat,Regional Jawa
 29,SITE-0029,Bojongloa Kaler,Bojongloa Kaler,Kota Bandung,Jawa Barat,Regional Jawa
@@ -56,7 +56,7 @@ id_lokasi,site_id,kelurahan,kecamatan,kabupaten_kota,provinsi,regional
 55,SITE-0055,Tambaksari,Tambaksari,Kota Surabaya,Jawa Timur,Regional Jawa
 56,SITE-0056,Lowokwaru,Lowokwaru,Kota Malang,Jawa Timur,Regional Jawa
 57,SITE-0057,Klojen,Klojen,Kota Malang,Jawa Timur,REGIONAL JAWA
-58,SITE-0058,Blimbing,Tidak Diketahui,Kota Malang,Jawa Timur,Regional Jawa
+58,SITE-0058,Blimbing,Unknown,Kota Malang,Jawa Timur,Regional Jawa
 59,SITE-0059,Ilir Barat I,Ilir Barat I,Kota Palembang,Sumatera Selatan,Regional Sumatera
 60,SITE-0060,Ilir Timur I,Ilir Timur I,Kota Palembang,Sumatera Selatan,Regional Sumatera
 61,SITE-0061,Seberang Ulu I,Seberang Ulu I,Kota Palembang,Sumatera Selatan,Regional Sumatera
@@ -92,8 +92,8 @@ id_lokasi,site_id,kelurahan,kecamatan,kabupaten_kota,provinsi,regional
 91,SITE-0091,Denpasar Selatan,Denpasar Selatan,Kota Denpasar,Bali,Regional Bali & Nusra
 92,SITE-0092,Denpasar Barat,Denpasar Barat,Kota Denpasar,Bali,Regional Bali & Nusra
 93,SITE-0093,Denpasar Timur,Denpasar Timur,Kota Denpasar,Bali,Regional Bali & Nusra
-94,SITE-0094,Kuta,Kuta,Tidak Diketahui,Bali,Regional Bali & Nusra
+94,SITE-0094,Kuta,Kuta,Unknown,Bali,Regional Bali & Nusra
 95,SITE-0095,Ubud,Ubud,Kab. Gianyar,Bali,Regional Bali & Nusra
 96,SITE-0096,Mataram,Mataram,Kota Mataram,NTB,Regional Bali & Nusra
-97,SITE-0097,Selaparang,Tidak Diketahui,Kota Mataram,NTB,Tidak Diketahui
+97,SITE-0097,Selaparang,Unknown,Kota Mataram,NTB,Unknown
 98,SITE-0098,Kupang Tengah,Kupang Tengah,Kota Kupang,NTT,Regional Bali & Nusra

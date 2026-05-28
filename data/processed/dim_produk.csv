@@ -8,14 +8,14 @@ id_produk,kode_produk,nama_produk,jenis_produk,kategori_produk,harga
 7,PRD-0007,10 GB Mingguan,Paket Data,Mingguan,50000
 8,PRD-0008,1 GB Bulanan,Paket Data,Bulanan,2820000
 9,PRD-0009,5 GB Bulanan,Paket Data,Bulanan,50000
-10,PRD-0010,10 GB Bulanan,Paket Data,Tidak Diketahui,14450000
-11,Tidak Diketahui,20 GB Bulanan,Paket Data,Bulanan,150000
+10,PRD-0010,10 GB Bulanan,Paket Data,Unknown,14450000
+11,Unknown,20 GB Bulanan,Paket Data,Bulanan,150000
 12,PRD-0012,50 GB Bulanan,Paket Data,Bulanan,300000
 13,PRD-0013,100 GB Bulanan,Paket Data,Bulanan,500000
 14,PRD-0014,Unlimited Malam,Paket Data,Harian,5000
 15,PRD-0015,YouTube 3 GB,Paket Data,Bulanan,25000
 16,PRD-0016,TikTok 5 GB,Paket Data,Bulanan,30000
-17,PRD-0017,Gaming 10 GB,Tidak Diketahui,Bulanan,60000
+17,PRD-0017,Gaming 10 GB,Unknown,Bulanan,60000
 18,PRD-0018,30 Menit Telepon,Telepon,Harian,0
 19,PRD-0019,60 Menit Telepon,Telepon,Harian,5000
 20,PRD-0020,100 Menit Telepon,Telepon,Mingguan,15000
@@ -45,7 +45,7 @@ id_produk,kode_produk,nama_produk,jenis_produk,kategori_produk,harga
 44,PRD-0044,PakeTelkomsel 20 GB+Unltd,Bundle,Bulanan,175000
 45,PRD-0045,Flash Sale 2 GB,Paket Data,Harian,1000
 46,PRD-0046,Paket Malam 3 GB,Paket Data,Harian,2500
-47,PRD-0047,Paket Weekend 5 GB,PAKET DATA,Tidak Diketahui,15000
+47,PRD-0047,Paket Weekend 5 GB,PAKET DATA,Unknown,15000
 48,PRD-0048,Netflix + 30 GB,Bundle,Bulanan,250000
 49,PRD-0049,Spotify + 10 GB,Bundle,Bulanan,120000
 50,PRD-0050,Office 365 + 20 GB,Bundle,Bulanan,0

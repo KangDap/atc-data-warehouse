@@ -1,9 +1,9 @@
 id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registrasi,status_aktif
 1,083126610857,Umar Maulana,Prabayar,Halo,2023-04-05,True
 2,082290810818,Ayu Susanto,Pascabayar,simPATI,2024-05-20,False
-3,085245977945,Andi Kusuma,Tidak Diketahui,Halo,2023-01-19,False
+3,085245977945,Andi Kusuma,Unknown,Halo,2023-01-19,False
 4,082299564122,Fira Purnomo,Prabayar,Kartu As,2022-01-29,False
-5,085360122777,Wawan Rahayu,Tidak Diketahui,Halo,2022-02-10,True
+5,085360122777,Wawan Rahayu,Unknown,Halo,2022-02-10,True
 6,085367899730,Luki Wijaya,Pascabayar,Loop,2024-12-17,False
 7,082183959724,Putri Handoko,Pascabayar,Kartu As,2024-03-10,False
 8,085316743380,Dodi Firmansyah,Prabayar,simPATI,2022-02-07,True
@@ -22,7 +22,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 21,082326546103,Rini Pratama,Pascabayar,Loop,2023-05-06,False
 22,085191382496,Sari Lestari,Pascabayar,Kartu As,2024-07-02,False
 23,082220074946,Wawan Firmansyah,Prabayar,Loop,2023-12-21,False
-24,082198554743,Kartika Susanto,Tidak Diketahui,HALO,2023-10-21,False
+24,082198554743,Kartika Susanto,Unknown,HALO,2023-10-21,False
 25,081218071569,Sandi Andriani,Prabayar,HALO,2024-01-04,False
 26,082233750479,Fitri Firmansyah,Prabayar,Kartu As,2023-03-05,True
 27,082230894870,Hendra Saputra,Pascabayar,simPATI,2024-05-24,True
@@ -31,7 +31,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 30,085304961108,Bagas Wijaya,Prabayar,simPATI,2022-04-17,True
 31,085385931109,Okta Santoso,Pascabayar,Halo,,True
 32,,Zaki Maulana,Prabayar,simPATI,2023-08-20,False
-33,085379599594,Okta Setiawan,Tidak Diketahui,Kartu As,2024-05-07,False
+33,085379599594,Okta Setiawan,Unknown,Kartu As,2024-05-07,False
 34,082162050150,Okta Wibowo,Pascabayar,Kartu As,2022-08-24,False
 35,081330241026,Cindy Putra,Pascabayar,Halo,2022-08-16,False
 36,085255963099,Fajar Andriani,Pascabayar,Halo,2023-01-23,False
@@ -44,10 +44,10 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 43,082233481705,Rizky Wibowo,Prabayar,simPATI,2024-11-27,False
 44,083194938743,Xena Hidayat,Prabayar,Halo,2022-01-16,True
 45,082269263296,Wawan Maulana,Prabayar,Loop,2024-07-26,True
-46,085281511856,Gita Purnomo,Pascabayar,Tidak Diketahui,2024-07-12,False
+46,085281511856,Gita Purnomo,Pascabayar,Unknown,2024-07-12,False
 47,,Wawan Purnomo,Pascabayar,simPATI,2022-11-27,False
-48,085308164709,Bambang Setiawan,Tidak Diketahui,simPATI,2022-01-10,False
-49,081306815583,Ahmad Hidayat,Prabayar,Tidak Diketahui,2023-03-01,False
+48,085308164709,Bambang Setiawan,Unknown,simPATI,2022-01-10,False
+49,081306815583,Ahmad Hidayat,Prabayar,Unknown,2023-03-01,False
 50,082301364971,Kartika Firmansyah,Pascabayar,Kartu As,2022-12-18,True
 51,082309976838,Xena Kusuma,Pascabayar,simPATI,2022-01-28,False
 52,083175245086,Andi Putra,Prabayar,Kartu As,2023-08-14,False
@@ -66,7 +66,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 65,082119525690,Okta Wahyudi,Pascabayar,Kartu As,2023-09-29,False
 66,081343772942,Wawan Surya,Pascabayar,Loop,2022-03-12,True
 67,081127642086,Gita Putra,Prabayar,Kartu As,2023-11-23,True
-68,082272927742,Tidak Diketahui,Prabayar,Kartu As,2023-03-06,False
+68,082272927742,Unknown,Prabayar,Kartu As,2023-03-06,False
 69,085320185962,Ahmad Maulana,Prabayar,simPATI,2024-04-07,True
 70,081111117830,Vina Maulana,Pascabayar,Loop,2024-09-09,True
 71,085188718981,Sari Wibowo,Prabayar!!,simPATI,2023-03-01,True
@@ -90,7 +90,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 89,082144812308,Joko Nugroho,Prabayar,Kartu As,2023-05-03,False
 90,,Fira Maulana,Pascabayar,simPATI,2022-04-28,True
 91,082173543962,Fira Andriani,Prabayar,Kartu As,2024-07-02,False
-92,081369312163,Maya Hidayat,Prabayar,Tidak Diketahui,2024-07-20,True
+92,081369312163,Maya Hidayat,Prabayar,Unknown,2024-07-20,True
 93,081390018513,Fitri Lestari,Pascabayar,Loop,2022-10-13,True
 94,085220303662,Ahmad Saputra,Prabayar,Kartu As,2023-12-25,True
 95,081192268592,Qori Kusuma,Pascabayar,Halo,2024-05-20,False
@@ -102,7 +102,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 101,081277566205,Cindy Firmansyah,Pascabayar,simPATI,2024-05-18,True
 102,082141990970,Fajar_Wijaya,Pascabayar,Halo,2022-04-09,True
 103,085120967904,Zaki Pratama,Prabayar,Kartu As,2022-11-27,True
-104,082372545960,Fira Saputra,Tidak Diketahui,Loop,2024-03-04,True
+104,082372545960,Fira Saputra,Unknown,Loop,2024-03-04,True
 105,081342149551,Wawan Surya,Pascabayar,Kartu As,2022-05-26,True
 106,083127589551,Sandi Susanto,Prabayar,simPATI,2024-04-26,True
 107,085271577871,Rizky Putra,Pascabayar,Loop,2022-06-25,False
@@ -121,7 +121,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 120,083194237676,Sandi Pratama,Pascabayar,simPATI,2023-07-11,True
 121,085156012562,Luki Firmansyah,Pascabayar,simPATI,2024-01-03,True
 122,085249383184,Cindy Kusuma,Pascabayar,Halo,2022-06-03,True
-123,083163904090,Fira Surya,Tidak Diketahui,Halo,2024-08-03,True
+123,083163904090,Fira Surya,Unknown,Halo,2024-08-03,True
 124,081285790647,Putri Wibowo,PRABAYAR,Kartu As,2024-10-07,False
 125,082380040104,Fitri Setiawan,Prabayar,simPATI,2022-06-03,False
 126,085139774573,Nur Saputra,Prabayar,Kartu As,2022-07-08,False
@@ -132,7 +132,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 131,081357207650,Rizky Hidayat,Prabayar,simPATI,2022-12-30,True
 132,085182211457,Luki Putra,Pascabayar,Loop,2024-10-01,True
 133,081126325703,Kartika Saputra,Prabayar,Halo,2024-06-01,False
-134,083164430985,Okta Wibowo,Tidak Diketahui,Kartu As,2022-09-09,True
+134,083164430985,Okta Wibowo,Unknown,Kartu As,2022-09-09,True
 135,085341407034,Dodi Nugroho,Prabayar,Loop,2022-09-10,True
 136,081336914307,Fitri Lestari,Prabayar,Loop,2023-12-28,True
 137,081368344149,Fajar Lestari,Prabayar,Loop,2024-08-02,False
@@ -155,7 +155,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 154,081185095493,Dewi Nugroho,Prabayar,Loop,2022-02-26,True
 155,081367320441,Ayu Lestari,Pascabayar,simPATI,2023-05-27,True
 156,081170705783,Vina Handoko,Pascabayar,Loop,2024-04-16,False
-157,083103102879,Eka Rahayu,Tidak Diketahui,Loop,2023-10-12,True
+157,083103102879,Eka Rahayu,Unknown,Loop,2023-10-12,True
 158,085113359561,Vina Pratama,Pascabayar,Loop,2024-05-23,False
 159,083101935889,Luki Rahayu,Prabayar,simPATI,2023-12-06,True
 160,085281809788,Dian Andriani,Pascabayar,Loop,2024-06-22,False
@@ -178,7 +178,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 177,081262028123,Ahmad Susanto,Pascabayar,Halo,2024-06-15,True
 178,082395922483,Kartika Saputra,Prabayar,Halo!!,2024-01-31,True
 179,081287510979,Fajar Setiawan,Prabayar,Halo,2022-11-17,False
-180,082119213424,Cindy Andriani,Pascabayar,Tidak Diketahui,2022-07-29,False
+180,082119213424,Cindy Andriani,Pascabayar,Unknown,2022-07-29,False
 181,081327051028,Galih Rahayu,Prabayar,Halo,2024-06-19,True
 182,081342687741,Fira Setiawan,Pascabayar,Kartu As,2024-06-10,True
 183,082109451548,Qori Saputra,Prabayar,Loop,2022-01-27,False
@@ -187,12 +187,12 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 186,081257919711,Cindy Maulana,Prabayar,Kartu As,2022-07-05,False
 187,082206424295,Fajar Rahayu,Pascabayar,simPATI,2024-04-27,False
 188,083162893654,Dodi Wijaya,Pascabayar,Loop,2023-03-01,True
-189,081379559690,Tidak Diketahui,Pascabayar,simPATI,2023-10-23,True
+189,081379559690,Unknown,Pascabayar,simPATI,2023-10-23,True
 190,083179966734,Sari Handoko,Prabayar,simPATI,2024-02-04,False
 191,081349839225,Dodi Saputra,Pascabayar,Kartu As,2022-04-21,False
 192,081232850725,Gita Susanto,Pascabayar,simPATI,2022-07-24,False
 193,083168157903,Luki Susanto,Pascabayar,Kartu As,2022-12-31,True
-194,081344670462,Eka Susanto,Pascabayar,Tidak Diketahui,2022-12-01,True
+194,081344670462,Eka Susanto,Pascabayar,Unknown,2022-12-01,True
 195,085366046419,Wawan Santoso,Pascabayar,Halo,2024-07-11,False
 196,082189760740,Edi Lestari,Pascabayar,Loop,2022-09-06,True
 197,082340915086,Sari Handoko,Pascabayar,Halo,2023-05-25,False
@@ -214,7 +214,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 213,083161739970,Dian Santoso,Pascabayar,Loop,2023-05-31,False
 214,081227058772,Maya Handoko,Pascabayar,Kartu As,2023-01-02,True
 215,085314939252,Nanda Saputra,Prabayar,Halo,2023-01-29,True
-216,082252455574,Joko Purnomo!!,Pascabayar,Tidak Diketahui,2024-05-21,False
+216,082252455574,Joko Purnomo!!,Pascabayar,Unknown,2024-05-21,False
 217,082305665883,Joko Nugroho,Prabayar,Halo,2023-03-17,False
 218,082299601054,Yudi Putra,Prabayar,Halo,2024-01-27,True
 219,082159848840,Fitri Handoko,Pascabayar,Halo,2022-10-15,False
@@ -245,7 +245,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 244,085349079779,Cindy Putra!!,Prabayar,Kartu As,2024-06-12,True
 245,085362637484,Sari Firmansyah,Pascabayar,simPATI,2023-11-08,True
 246,081333922071,Ayu Susanto,Pascabayar,Halo,2023-11-11,True
-247,085312463351,Umar Lestari,Prabayar,Tidak Diketahui,2023-11-27,False
+247,085312463351,Umar Lestari,Prabayar,Unknown,2023-11-27,False
 248,081199512397,Rini Nugroho,Prabayar,Halo,2023-01-08,False
 249,083108144152,Vina Santoso,Pascabayar,Halo,2024-11-27,True
 250,082173605079,Qori Rahayu,Pascabayar,Loop,2022-07-22,False
@@ -264,13 +264,13 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 263,082215959775,Citra Setiawan,Prabayar,Halo,2022-12-25,True
 264,081371026767,Ika Pratama,Pascabayar,simPATI,2022-12-16,True
 265,081329462135,Qori Kusuma,Pascabayar!!,Loop,2023-08-22,True
-266,082320344765,Sari Purnomo,Pascabayar,Tidak Diketahui,2022-03-24,False
+266,082320344765,Sari Purnomo,Pascabayar,Unknown,2022-03-24,False
 267,085255866525,Andi Lestari,Prabayar,simPATI,2023-06-20,True
 268,083131100591,Rizky Rahayu,Pascabayar,simPATI,2022-11-16,True
 269,085233016583,Fitri Santoso,Pascabayar,simPATI,2024-09-01,False
 270,082111325326,Bambang Wahyudi,Pascabayar,Loop,2023-08-31,False
 271,085217015959,Dewi Firmansyah,Pascabayar,Halo,2022-05-15,True
-272,085375677722,Putri Susanto,Tidak Diketahui,Kartu As,2024-02-29,True
+272,085375677722,Putri Susanto,Unknown,Kartu As,2024-02-29,True
 273,082330762484,Citra Lestari,Prabayar,Loop,2023-04-12,False
 274,085173670425,Citra Putra,Pascabayar,Kartu As,2023-09-29,False
 275,082335748595,Ika Setiawan,Prabayar,Kartu As,,False
@@ -304,12 +304,12 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 303,085353674978,Okta Hidayat,Pascabayar,Loop,2023-12-01,True
 304,085234067917,Zaki Wahyudi,Prabayar,simPATI,2024-06-14,False
 305,083100159446,Gita Wijaya,Pascabayar,Loop,2023-05-08,False
-306,081319947113,Galih Santoso,Tidak Diketahui,Loop,2024-04-12,False
+306,081319947113,Galih Santoso,Unknown,Loop,2024-04-12,False
 307,085277269608,Ahmad Kusuma,Pascabayar,Halo,2023-07-11,False
 308,085233556434,Rini Hidayat,Prabayar,simPATI,2023-04-18,False
 309,081264534547,Vina Susanto,Prabayar,Loop,2022-11-20,False
 310,082218472426,Cindy Wijaya,Prabayar,simPATI,2023-07-25,False
-311,085223039111,Cindy Purnomo,Pascabayar,Tidak Diketahui,2023-07-06,True
+311,085223039111,Cindy Purnomo,Pascabayar,Unknown,2023-07-06,True
 312,085106220722,Sari Saputra,Prabayar,Kartu As,,False
 313,085368868785,Wawan Saputra,Pascabayar,simPATI,2024-04-09,True
 314,082250573036,Rini Wibowo,Pascabayar,Kartu As,2022-10-29,False
@@ -324,9 +324,9 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 323,082294981942,Yudi Pratama,Prabayar,Loop,2022-05-14,False
 324,085144663453,VINA MAULANA,Prabayar,Kartu As,2023-05-08,False
 325,085261894370,Ika Purnomo,Pascabayar,Halo,2024-01-16,True
-326,082392024617,Nanda Susanto,Pascabayar,Tidak Diketahui,2023-11-17,True
+326,082392024617,Nanda Susanto,Pascabayar,Unknown,2023-11-17,True
 327,081117833258,Qori Surya,Prabayar,simPATI,2023-07-15,True
-328,082250691767,Wawan Wijaya,Prabayar,Tidak Diketahui,2023-04-18,False
+328,082250691767,Wawan Wijaya,Prabayar,Unknown,2023-04-18,False
 329,085206014886,Vina Putra,Pascabayar,Halo,2022-02-03,True
 330,085152830615,Ika Wibowo,Pascabayar,Loop,2023-05-18,False
 331,085181121031,Luki Nugroho,Pascabayar,Loop,2023-07-08,False
@@ -335,13 +335,13 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 334,085181927788,Ahmad Firmansyah,Prabayar,Loop,2023-11-29,False
 335,085224561851,Bagas_Lestari,Prabayar,simPATI,2024-10-17,True
 336,083139130448,Nur Hidayat,Pascabayar,simPATI,,True
-337,081311901707,Kartika Wijaya,Prabayar,Tidak Diketahui,2024-01-10,False
+337,081311901707,Kartika Wijaya,Prabayar,Unknown,2024-01-10,False
 338,085208493783,Zaki Putra,Pascabayar,Halo,2022-05-02,True
 339,085301693429,Joko Firmansyah,Prabayar,simPATI,2023-01-13,False
 340,081131061537,Nur Wahyudi,Pascabayar,Loop,2022-10-23,False
 341,085374604067,Fajar Putra,Pascabayar,Loop,2022-11-21,True
 342,083175437347,Ayu Kusuma,Prabayar,Kartu As,2024-03-10,False
-343,085201913443,Tidak Diketahui,Prabayar,Tidak Diketahui,2024-12-21,True
+343,085201913443,Unknown,Prabayar,Unknown,2024-12-21,True
 344,082293699951,Umar Lestari,Pascabayar,Loop,2024-02-18,False
 345,082160376811,Dian Rahayu,Prabayar,Halo,2024-06-22,False
 346,082191149830,Fitri Surya,Prabayar,Kartu As,2024-09-01,True
@@ -382,7 +382,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 381,081318219259,Sandi Wahyudi,Pascabayar,Loop,2024-03-25,False
 382,081193869484,Andi Surya,Prabayar,Halo,2022-09-24,True
 383,082323867673,Vina Kusuma,Prabayar,Halo,2023-01-18,False
-384,085172258937,Tidak Diketahui,Prabayar,Loop,,False
+384,085172258937,Unknown,Prabayar,Loop,,False
 385,085390012482,Galih Surya,Pascabayar,Loop,2023-12-03,False
 386,083146338915,Bagas Andriani,Pascabayar,Kartu As,2024-04-09,True
 387,082158951381,Edi Putra,Pascabayar,simPATI,2024-03-12,True
@@ -400,7 +400,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 399,083179127997,Joko Lestari,Prabayar,Halo,2022-01-06,True
 400,082122012560,Cindy Saputra,Pascabayar,Halo,2023-01-21,False
 401,081338600304,Zaki Maulana,Pascabayar,Kartu As,2023-09-11,True
-402,081395014374,Tidak Diketahui,Pascabayar,Halo,2024-11-13,True
+402,081395014374,Unknown,Pascabayar,Halo,2024-11-13,True
 403,082121767201,Citra Pratama,Prabayar,Halo,2022-07-02,True
 404,083130493665,Ika Setiawan,Pascabayar,Loop,,False
 405,083152294620,Okta Santoso,Prabayar,simPATI,2023-02-01,True
@@ -440,25 +440,25 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 439,085328339121,Hendra Wahyudi,Prabayar,simPATI,2024-10-20,False
 440,081332001867,Nur Santoso!!,PRABAYAR,Kartu As,2024-06-07,False
 441,082331980746,Cindy Nugroho,Prabayar,simPATI,2022-10-11,True
-442,083167150066,Kartika Surya!!,Pascabayar,Tidak Diketahui,2024-03-09,True
+442,083167150066,Kartika Surya!!,Pascabayar,Unknown,2024-03-09,True
 443,082297089058,Galih Wahyudi,Pascabayar,simPATI,2023-02-03,True
 444,085387915059,Dian Pratama,Pascabayar,simPATI,2024-05-28,True
 445,085126041809,Ayu Wahyudi,Pascabayar,Halo,2024-01-25,False
 446,081311882419,Rini Firmansyah,Pascabayar,Halo,2024-04-04,True
-447,081318545705,Qori Lestari,Tidak Diketahui,simPATI,2024-06-10,False
+447,081318545705,Qori Lestari,Unknown,simPATI,2024-06-10,False
 448,082207232472,Okta Susanto,PASCABAYAR,Kartu As,2024-10-27,True
 449,085285071058,Tari Kusuma,Pascabayar,simPATI,2022-05-01,True
 450,,Hendra Handoko,Prabayar,Loop,2023-10-05,False
 451,085369893652,Dian Saputra,Prabayar,Kartu As,2023-06-11,True
 452,082250258963,Rizky Wijaya,Pascabayar,Kartu As,2023-01-11,True
 453,085206739834,Kartika Andriani,Pascabayar,Loop,,True
-454,081165795515,Tidak Diketahui,Prabayar,Loop,2024-03-24,False
+454,081165795515,Unknown,Prabayar,Loop,2024-03-24,False
 455,082111178619,Fira Pratama,Pascabayar,Kartu As,2022-02-09,False
 456,081301227595,Kartika Kusuma,Pascabayar,Kartu As,2022-05-02,False
 457,083150740717,Joko Handoko,Pascabayar,simPATI,2023-01-27,False
 458,082191045203,Maya Santoso,Prabayar,simPATI,2024-05-27,True
 459,082353595205,Eka Andriani,Prabayar,Halo,2024-03-05,True
-460,082203784233,Vina Purnomo,Prabayar!!,Tidak Diketahui,2023-08-15,True
+460,082203784233,Vina Purnomo,Prabayar!!,Unknown,2023-08-15,True
 461,082165426241,Rizky Purnomo,Prabayar,Loop,2024-07-29,True
 462,082330886843,Tari Wijaya,Prabayar,simPATI,2022-01-29,False
 463,085175921299,Dian Andriani,Pascabayar,simPATI,2024-05-17,True
@@ -468,7 +468,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 467,082282322041,Gita Firmansyah,Prabayar,Loop,2023-07-23,False
 468,081130423227,Budi Rahayu,Pascabayar,Kartu As,2024-10-16,False
 469,081159377756,Fajar Santoso,Prabayar,simPATI,2022-07-16,False
-470,081204384196,Ayu Setiawan,Tidak Diketahui,simPATI,2024-03-13,False
+470,081204384196,Ayu Setiawan,Unknown,simPATI,2024-03-13,False
 471,081163621986,Sandi Handoko,Pascabayar,Halo,2024-01-12,False
 472,082304962732,Dian Susanto,Prabayar,Kartu As,2022-12-12,True
 473,081288087991,Kartika Rahayu,Prabayar,Halo,2024-04-14,False
@@ -507,7 +507,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 506,081165838727,Eka Lestari,Prabayar,Loop,2022-10-31,True
 507,085333791212,Citra Putra,Prabayar,Halo,,False
 508,081139251999,Yudi Nugroho,Prabayar,Kartu As,2023-05-31,False
-509,081305422162,Wawan Hidayat,Pascabayar,Tidak Diketahui,2024-02-11,False
+509,081305422162,Wawan Hidayat,Pascabayar,Unknown,2024-02-11,False
 510,082270488789,Luki Nugroho,Pascabayar,simPATI,2023-11-09,False
 511,081366329563,Joko Firmansyah,Prabayar,simPATI,2023-07-03,True
 512,081159229411,Fira Rahayu,Prabayar,Halo,2023-10-23,False
@@ -516,15 +516,15 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 515,085229877873,Budi Wijaya,Pascabayar,Loop,2023-10-05,False
 516,083126221320,Eka Pratama,Prabayar,Halo,2023-09-18,False
 517,083172699994,Fitri Purnomo,Prabayar,Halo,2024-12-14,False
-518,082128538631,Budi Maulana,Tidak Diketahui,Loop,2022-01-08,True
+518,082128538631,Budi Maulana,Unknown,Loop,2022-01-08,True
 519,081107686276,Dian Firmansyah,Pascabayar,Kartu As,2023-05-15,True
 520,085226713684,Nur Andriani,Prabayar,Kartu As,2022-08-11,False
 521,083118750677,Eka Handoko,PRABAYAR,Loop,2024-02-29,True
 522,085381596983,Tari Pratama,Prabayar,Halo,2023-09-05,True
 523,082373498992,Ahmad Rahayu,Prabayar,Kartu As,2023-12-05,False
 524,085294179967,Galih Susanto,Pascabayar,Loop,2022-02-14,True
-525,085273478536,Maya Pratama,Tidak Diketahui,Kartu As,2024-12-28,True
-526,081126270664,Dodi Pratama,Tidak Diketahui,Kartu As,2022-05-06,True
+525,085273478536,Maya Pratama,Unknown,Kartu As,2024-12-28,True
+526,081126270664,Dodi Pratama,Unknown,Kartu As,2022-05-06,True
 527,082199741856,Bambang Andriani,Prabayar,Halo,2023-04-30,True
 528,082364184937,Gita Santoso,Prabayar,Kartu As,,False
 529,081203444429,Umar Maulana,Pascabayar,Loop,2022-03-30,False
@@ -560,7 +560,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 559,082359851602,Bagas Lestari,Prabayar,Halo,2022-08-05,True
 560,085168623760,Joko Purnomo,Prabayar,simPATI,,True
 561,085240069836,Bagas Kusuma,Pascabayar,simPATI,2022-09-19,True
-562,081320212372,Kartika Susanto,Tidak Diketahui,Halo,2022-01-30,False
+562,081320212372,Kartika Susanto,Unknown,Halo,2022-01-30,False
 563,083100889911,EDI PRATAMA,Prabayar,Halo,2023-06-01,False
 564,083106085481,Dian Handoko,Pascabayar,simPATI,2024-05-20,False
 565,081251985458,Ahmad Saputra,Prabayar,simPATI,2022-10-17,True
@@ -580,7 +580,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 579,085328878072,Nur Santoso,Pascabayar,simPATI,2024-08-16,False
 580,085247718375,Fira Wahyudi,Prabayar,simPATI,2023-04-10,True
 581,081124432362,Zaki Wijaya,Pascabayar,Loop,2022-11-29,True
-582,081269139521,Vina Maulana,Tidak Diketahui,simPATI,2023-10-22,False
+582,081269139521,Vina Maulana,Unknown,simPATI,2023-10-22,False
 583,082231983924,JOKO HIDAYAT,Prabayar,Kartu As,2023-08-23,False
 584,085246339534,Qori Andriani,Pascabayar,Kartu As,2022-07-05,False
 585,085338551281,Nur Surya,Pascabayar,simPATI,2024-07-08,False
@@ -620,7 +620,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 619,083187605504,Dodi Saputra,Pascabayar,Halo,2022-10-10,False
 620,085229073992,Dewi Kusuma,Prabayar,Halo,2024-11-08,False
 621,085164942694,Wawan Santoso,Prabayar,Kartu As,2022-11-20,True
-622,082399670692,Tidak Diketahui,Pascabayar,Loop,2022-05-11,True
+622,082399670692,Unknown,Pascabayar,Loop,2022-05-11,True
 623,081317816780,Ika Wijaya,Prabayar,simPATI,2024-03-02,True
 624,081250370170,Citra Saputra,Prabayar,simPATI,2022-11-16,True
 625,082248500728,Cindy Hidayat,Pascabayar,Halo,2024-11-05,True
@@ -633,7 +633,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 632,082360413482,Galih Hidayat,Prabayar,Kartu As,2022-04-11,False
 633,081244076291,Sari Santoso,Prabayar,Kartu As,2023-09-17,False
 634,,Xena Rahayu,Prabayar,Loop,2022-10-05,False
-635,082289629805,Ahmad Firmansyah,Tidak Diketahui,Halo,2024-04-03,True
+635,082289629805,Ahmad Firmansyah,Unknown,Halo,2024-04-03,True
 636,081143474125,Citra Nugroho,Pascabayar,Halo,2023-04-07,True
 637,083120259991,Tari Kusuma,Prabayar,Loop,2023-02-11,True
 638,081178623510,Yudi Susanto,Pascabayar,Loop,2024-08-21,False
@@ -691,7 +691,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 690,082359227764,Rini Firmansyah,Pascabayar,Loop,2022-07-09,True
 691,085272288390,Joko Andriani,Pascabayar,simPATI,2023-09-08,False
 692,082297887953,Fitri Pratama,Pascabayar,Halo,,True
-693,085331439151,Ahmad Andriani,Tidak Diketahui,simPATI,2022-05-13,False
+693,085331439151,Ahmad Andriani,Unknown,simPATI,2022-05-13,False
 694,082225706802,Nanda Susanto,Prabayar,KARTU AS,2024-05-26,False
 695,082305224114,Umar Surya,Pascabayar,simPATI,2022-11-11,False
 696,081322400539,Ayu Rahayu,Prabayar,simPATI,2022-09-25,True
@@ -713,7 +713,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 712,085226168455,Tari Firmansyah,Prabayar,simPATI,2022-12-09,False
 713,082366948993,Ayu Saputra,Pascabayar,Halo,2022-04-30,False
 714,081272662565,Eka Handoko,Prabayar,Loop,2022-02-23,False
-715,082208710066,Tari Hidayat,Tidak Diketahui,Halo,2022-05-01,True
+715,082208710066,Tari Hidayat,Unknown,Halo,2022-05-01,True
 716,082128222824,Dodi Rahayu,Pascabayar,Loop,,False
 717,082311350535,Nur Putra,Prabayar,simPATI,2024-06-26,False
 718,085383028010,Andi Firmansyah,Prabayar,Kartu As,2023-09-07,False
@@ -749,11 +749,11 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 748,081190071210,Rini Setiawan,Pascabayar,simPATI,2022-10-17,False
 749,083161997165,Xena Pratama,Prabayar,Halo,2024-06-08,False
 750,081324265379,Galih Maulana,Pascabayar,simPATI,2023-02-15,False
-751,082379115010,Tidak Diketahui,Prabayar,Kartu As,2022-05-22,True
+751,082379115010,Unknown,Prabayar,Kartu As,2022-05-22,True
 752,082154883571,Cindy Setiawan,Pascabayar,Halo,2023-01-18,False
 753,081272665282,Sari Setiawan,Prabayar,Kartu As,,True
 754,082260519085,Dewi Kusuma,Prabayar,Kartu As,2023-07-28,False
-755,082101000908,Tidak Diketahui,Pascabayar,simPATI,2023-04-26,True
+755,082101000908,Unknown,Pascabayar,simPATI,2023-04-26,True
 756,082389290930,Kartika Kusuma,Pascabayar,simPATI,2023-06-22,False
 757,081259474705,Umar Saputra,Pascabayar,Kartu As!!,2023-03-28,False
 758,081289142693,Luki Rahayu,Prabayar,Halo,2024-08-29,False
@@ -766,7 +766,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 765,082371446956,Luki Santoso,Prabayar,Loop,2024-10-12,False
 766,085258348348,Cindy Andriani,Prabayar,Kartu As,2023-04-14,True
 767,085358708943,Sari Handoko,Prabayar,Loop,2022-11-22,True
-768,082304505092,Tidak Diketahui,Pascabayar,Kartu As,2024-12-25,False
+768,082304505092,Unknown,Pascabayar,Kartu As,2024-12-25,False
 769,082345038016,Citra Wahyudi,Prabayar,Loop,2022-10-10,True
 770,082112794337,Gita Surya,Prabayar,simPATI,2023-11-09,False
 771,085166251085,Joko Rahayu,Pascabayar,Halo,2024-10-12,False
@@ -781,7 +781,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 780,082386760304,Dodi Firmansyah,Pascabayar,simPATI,2022-01-18,False
 781,081238272105,Ahmad Wijaya,Prabayar,Kartu As,,False
 782,081263603891,Rini Saputra,Pascabayar,Kartu As,2024-09-07,True
-783,085307163485,Ahmad Wijaya,Tidak Diketahui,Loop,2022-02-26,True
+783,085307163485,Ahmad Wijaya,Unknown,Loop,2022-02-26,True
 784,082256972965,Maya Maulana,Prabayar,simPATI,2023-11-25,False
 785,082361266783,Ika Wahyudi,Pascabayar,simPATI,2022-02-21,False
 786,081244662763,Luki Wibowo,Pascabayar,Loop,2023-03-24,False
@@ -839,7 +839,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 838,085366809846,Fira Hidayat,Pascabayar,Loop,2022-04-11,False
 839,085166715544,Ika Maulana,Prabayar,Loop,2024-05-03,False
 840,082336499119,Bagas Wijaya,Prabayar,simPATI,2022-11-10,True
-841,082107755821,Gita Andriani,Pascabayar,Tidak Diketahui,2022-11-22,True
+841,082107755821,Gita Andriani,Pascabayar,Unknown,2022-11-22,True
 842,083191981775,Okta Kusuma,Pascabayar,Kartu As,2024-01-29,True
 843,082397477656,Ika_Saputra,Pascabayar,Loop,2023-10-16,False
 844,083122094907,Okta Susanto,Prabayar,simPATI,2024-04-09,True
@@ -861,13 +861,13 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 860,085202216908,Okta Hidayat,Prabayar,Kartu As,2024-11-10,True
 861,082373517454,Budi Susanto,Prabayar,simPATI,2024-02-12,True
 862,085399035971,Zaki Wahyudi,Prabayar,simPATI,2024-10-06,False
-863,085248389533,Okta Kusuma,Pascabayar,Tidak Diketahui,2024-07-06,True
-864,082117303324,Edi Handoko,Pascabayar,Tidak Diketahui,2024-05-10,True
+863,085248389533,Okta Kusuma,Pascabayar,Unknown,2024-07-06,True
+864,082117303324,Edi Handoko,Pascabayar,Unknown,2024-05-10,True
 865,085331815605,Edi Nugroho,Pascabayar,Loop,2023-08-16,True
 866,085247545657,Dian Purnomo,Prabayar,simPATI,2022-11-03,True
 867,082360669926,Rini Saputra,Prabayar,Halo,2022-05-19,True
 868,083162637792,Gita Wahyudi,Prabayar,Halo,,True
-869,082102399344,Hendra Setiawan,Pascabayar,Tidak Diketahui,2024-02-16,False
+869,082102399344,Hendra Setiawan,Pascabayar,Unknown,2024-02-16,False
 870,085165294128,Okta Handoko,Pascabayar,Loop,2023-12-05,False
 871,081142554280,Edi Saputra,Prabayar,Halo,2023-10-26,True
 872,085202039221,VINA ANDRIANI,Pascabayar,Kartu As,2023-05-26,True
@@ -879,10 +879,10 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 878,082129704937,Bagas Putra,Pascabayar,simPATI,2023-11-29,False
 879,081175741424,Fira Hidayat,Prabayar,simPATI,2024-08-15,False
 880,085372443435,Ika Susanto,Pascabayar,Halo,2023-09-16,True
-881,083190348042,Andi Hidayat,Tidak Diketahui,simPATI,2023-08-24,False
+881,083190348042,Andi Hidayat,Unknown,simPATI,2023-08-24,False
 882,085222549203,Dodi Wibowo,Pascabayar,simPATI,2024-04-24,False
 883,081326414756,Nur Handoko,Prabayar,Loop,2022-01-27,True
-884,085267715390,Nanda Firmansyah,Tidak Diketahui,Kartu As,2022-12-12,False
+884,085267715390,Nanda Firmansyah,Unknown,Kartu As,2022-12-12,False
 885,082276144278,Dewi Susanto,Prabayar,Kartu As,2024-09-28,False
 886,085354939343,Dewi Susanto,Prabayar,Kartu As,2024-03-30,False
 887,082130734533,Zaki Pratama,Prabayar,Loop,2022-04-14,False
@@ -903,11 +903,11 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 902,,Fajar Susanto,Prabayar,Halo,2023-09-13,False
 903,081131180266,Maya Maulana,PASCABAYAR,Halo,2022-09-07,True
 904,083192569247,Nur Pratama,Prabayar,simPATI,2024-04-18,True
-905,082313251790,Tidak Diketahui,Pascabayar,Halo,2023-09-27,False
+905,082313251790,Unknown,Pascabayar,Halo,2023-09-27,False
 906,082114564572,Rizky Santoso,Prabayar,Kartu As,2022-11-09,True
 907,085170933913,Edi Firmansyah,Pascabayar,Halo,2024-03-16,True
 908,081157631010,Rizky Andriani,Prabayar,Halo,2024-12-29,True
-909,083148698948,Sandi Handoko,PRABAYAR,Tidak Diketahui,2023-06-01,False
+909,083148698948,Sandi Handoko,PRABAYAR,Unknown,2023-06-01,False
 910,082394933078,Hendra Purnomo,Pascabayar,Loop,2022-07-31,True
 911,083167433384,Putri Surya,Prabayar,Kartu As,2024-04-13,True
 912,081366536197,Edi Wahyudi,Pascabayar,Kartu As,2024-07-23,False
@@ -952,17 +952,17 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 951,085324525737,Umar Lestari,Prabayar,Loop,2024-08-11,True
 952,083188972842,Fitri Rahayu,Prabayar,simPATI,2024-03-27,False
 953,085318605668,Okta Setiawan,Pascabayar,Loop,2024-11-21,False
-954,081385354160,Eka Lestari,Tidak Diketahui,simPATI,2022-06-23,False
+954,081385354160,Eka Lestari,Unknown,simPATI,2022-06-23,False
 955,081307710740,Ahmad Maulana,Pascabayar,Kartu As,2023-08-07,True
 956,,Rizky Kusuma,Pascabayar,Kartu As,,False
 957,083197475396,Xena Maulana,Prabayar,Loop,2023-10-21,False
-958,085340513379,Putri Setiawan,Pascabayar,Tidak Diketahui,2023-04-16,True
+958,085340513379,Putri Setiawan,Pascabayar,Unknown,2023-04-16,True
 959,082290584968,Fitri Handoko,Prabayar,Halo,2024-11-08,False
 960,083199863245,Okta Santoso,Prabayar,Loop,2023-05-14,True
 961,083185932135,Umar Saputra,Prabayar,simPATI,2024-04-23,False
 962,082397205548,Joko Rahayu,Prabayar,simPATI,2022-12-02,False
 963,085346042937,Bambang Lestari,Prabayar,Halo,,True
-964,085276988979,Galih Hidayat,Pascabayar,Tidak Diketahui,2024-12-10,False
+964,085276988979,Galih Hidayat,Pascabayar,Unknown,2024-12-10,False
 965,085205962751,Edi Setiawan,Prabayar,Loop,2023-03-04,False
 966,081215686223,Putri Susanto!!,Pascabayar,Kartu As,2022-05-08,False
 967,082103727186,Maya Putra,Prabayar,simPATI,2022-11-28,False
@@ -978,7 +978,7 @@ id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registras
 977,085372871565,Sari Rahayu,Pascabayar,Loop,2024-06-02,True
 978,081391714854,Ika Wibowo,Prabayar,Loop,2022-06-02,False
 979,081265119214,Zaki Hidayat,Prabayar,Kartu As,2024-02-06,True
-980,085124035321,Tidak Diketahui,Prabayar,Halo,2022-12-12,True
+980,085124035321,Unknown,Prabayar,Halo,2022-12-12,True
 981,081280525795,Fitri Hidayat,Pascabayar,Kartu As,2022-05-06,True
 982,081234348571,Fira Kusuma,Pascabayar,Kartu As,2023-02-18,True
 983,081238130149,Dodi Firmansyah,Prabayar,Loop,2023-09-18,True
