@@ -1,0 +1,51 @@
+id_produk,kode_produk,nama_produk,jenis_produk,kategori_produk,harga
+1,PRD-0001,1 GB Harian,Paket Data,Harian,2000
+2,PRD-0002,2 GB HARIAN,Paket Data,Harian,3500
+3,PRD-0003,5 GB Harian,Paket Data,Harian,7000
+4,PRD-0004,1 GB Mingguan,Paket Data,Mingguan,9000
+5,PRD-0005,3 GB Mingguan,Paket Data,Mingguan,20000
+6,PRD-0006,5 GB Mingguan,Paket Data!!,Mingguan,30000
+7,PRD-0007,10 GB Mingguan,Paket Data,Mingguan,50000
+8,PRD-0008,1 GB Bulanan,Paket Data,Bulanan,2820000
+9,PRD-0009,5 GB Bulanan,Paket Data,Bulanan,50000
+10,PRD-0010,10 GB Bulanan,Paket Data,,14450000
+11,,20 GB Bulanan,Paket Data,Bulanan,150000
+12,PRD-0012,50 GB Bulanan,Paket Data,Bulanan,300000
+13,PRD-0013,100 GB Bulanan,Paket Data,Bulanan,500000
+14,PRD-0014,Unlimited Malam,Paket Data,Harian,5000
+15,PRD-0015,YouTube 3 GB,Paket Data,Bulanan,25000
+16,PRD-0016,TikTok 5 GB,Paket Data,Bulanan,30000
+17,PRD-0017,Gaming 10 GB,,Bulanan,60000
+18,PRD-0018,30 Menit Telepon,Telepon,Harian,"3000,-"
+19,PRD-0019,60 Menit Telepon,Telepon,Harian,5000
+20,PRD-0020,100 Menit Telepon,Telepon,Mingguan,15000
+21,PRD-0021,200 Menit Telepon,Telepon,Mingguan,25000
+22,PRD-0022,500 Menit Telepon,Telepon,Bulanan,50000
+23,PRD-0023,1000 Menit Telepon,Telepon,Bulanan,90000
+24,PRD-0024,Unlimited Telpon Sesama,Telepon,Bulanan,70000
+25,PRD-0025,50 SMS Harian,SMS,Harian,1000
+26,PRD-0026,100 SMS Harian,SMS,Harian,1500
+27,PRD-0027,500 SMS Mingguan,SMS,Mingguan,5000
+28,PRD-0028,1000 SMS Bulanan,SMS,Bulanan,10000
+29,PRD-0029,Unlimited SMS,SMS,Bulanan,25000
+30,PRD-0030,Bundle Starter,Bundle,Bulanan,35000
+31,PRD-0031,Bundle Basic,Bundle,Bulanan!!,65000
+32,PRD-0032,Bundle Smart,Bundle,Bulanan,95000
+33,PRD-0033,Bundle Plus,Bundle,Bulanan,135000
+34,PRD-0034,Bundle Premium,Bundle,Bulanan,200000
+35,PRD-0035,Bundle Ultimate,Bundle,Bulanan,350000
+36,PRD-0036,Paket Internasional Asean,Bundle,Bulanan,150000
+37,PRD-0037,Paket Internasional World,Bundle,Bulanan,300000
+38,PRD-0038,Roaming Harian,Bundle,Harian,50000
+39,PRD-0039,Kartu Perdana simPATI,Lainnya,Sekali Beli,20000
+40,PRD-0040,Kartu Perdana Kartu As,Lainnya,Sekali_Beli,10000
+41,PRD-0041,Kartu Perdana Loop,Lainnya,Sekali Beli,15000
+42,PRD-0042,PakeTelkomsel 5 GB+100min,Bundle,Bulanan,75000
+43,PRD-0043,PakeTelkomsel 10 GB+200min,Bundle,Bulanan,120000
+44,PRD-0044,PakeTelkomsel 20 GB+Unltd,Bundle,  Bulanan  ,175000
+45,PRD-0045,Flash Sale 2 GB,Paket Data,Harian,1000
+46,PRD-0046,Paket Malam 3 GB,Paket Data,Harian,2500
+47,PRD-0047,Paket Weekend 5 GB,PAKET DATA,,15000
+48,PRD-0048,Netflix + 30 GB,Bundle,Bulanan,250000
+49,PRD-0049,Spotify + 10 GB,Bundle,Bulanan,120000
+50,PRD-0050,Office 365 + 20 GB,Bundle,Bulanan,"200000,-"

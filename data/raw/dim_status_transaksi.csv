@@ -1,0 +1,6 @@
+id_status,kode_status,deskripsi_status
+1,ST-001,Sukses
+2,ST-002,Gagal
+3,ST-003,Pending
+4,ST-004,REFUND
+5,ST-005,Dibatalkan
