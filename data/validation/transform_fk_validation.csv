@@ -1,0 +1,7 @@
+fact_table,fact_column,dimension_table,dimension_column,invalid_row_count,invalid_values_sample,is_fk_valid
+fact_transaksi_layanan,id_waktu,dim_waktu,id_waktu,0,,True
+fact_transaksi_layanan,id_pelanggan,dim_pelanggan,id_pelanggan,0,,True
+fact_transaksi_layanan,id_produk,dim_produk,id_produk,0,,True
+fact_transaksi_layanan,id_lokasi,dim_lokasi,id_lokasi,544,"100, 99",False
+fact_transaksi_layanan,id_channel,dim_channel_pembelian,id_channel,0,,True
+fact_transaksi_layanan,id_status,dim_status_transaksi,id_status,0,,True

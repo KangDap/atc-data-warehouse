@@ -1,0 +1,1001 @@
+id_pelanggan,nomor_hp,nama_pelanggan,jenis_layanan,jenis_kartu,tanggal_registrasi,status_aktif
+1,083126610857,Umar Maulana,Prabayar,Halo,2023-04-05,True
+2,082290810818,Ayu Susanto,Pascabayar,simPATI,2024-05-20,False
+3,085245977945,Andi Kusuma,Tidak Diketahui,Halo,2023-01-19,False
+4,082299564122,Fira Purnomo,Prabayar,Kartu As,2022-01-29,False
+5,085360122777,Wawan Rahayu,Tidak Diketahui,Halo,2022-02-10,True
+6,085367899730,Luki Wijaya,Pascabayar,Loop,2024-12-17,False
+7,082183959724,Putri Handoko,Pascabayar,Kartu As,2024-03-10,False
+8,085316743380,Dodi Firmansyah,Prabayar,simPATI,2022-02-07,True
+9,085142891077,Putri Wijaya,Prabayar,simPATI,2022-08-16,True
+10,085171255213,Luki Handoko!!,Prabayar,Halo,2024-06-18,True
+11,085266785072,Hendra Rahayu,Pascabayar,simPATI,2022-01-21,False
+12,082266845504,Dewi Saputra,Pascabayar,Halo,2024-12-16,True
+13,085143188485,Bagas Saputra,Prabayar,Loop,,False
+14,082339989354,Budi Handoko,Pascabayar,Loop,2023-08-06,False
+15,081210627371,Umar Susanto,Pascabayar,Halo,2024-01-27,False
+16,081377288137,Citra Saputra,Prabayar,simPATI,2024-08-27,True
+17,082270229604,Qori Nugroho,Pascabayar,Halo,2023-08-04,False
+18,081387772519,Fira Rahayu,Pascabayar,Kartu As,2024-04-18,False
+19,,Nur Andriani,Prabayar,Halo,2024-09-01,True
+20,085226085641,Sari Surya,Prabayar,Kartu As,2022-08-23,False
+21,082326546103,Rini Pratama,Pascabayar,Loop,2023-05-06,False
+22,085191382496,Sari Lestari,Pascabayar,Kartu As,2024-07-02,False
+23,082220074946,Wawan Firmansyah,Prabayar,Loop,2023-12-21,False
+24,082198554743,Kartika Susanto,Tidak Diketahui,HALO,2023-10-21,False
+25,081218071569,Sandi Andriani,Prabayar,HALO,2024-01-04,False
+26,082233750479,Fitri Firmansyah,Prabayar,Kartu As,2023-03-05,True
+27,082230894870,Hendra Saputra,Pascabayar,simPATI,2024-05-24,True
+28,082268750635,Hendra Wijaya,Pascabayar,Kartu As,2022-06-17,True
+29,083154317350,Umar Santoso,Pascabayar,simPATI,,False
+30,085304961108,Bagas Wijaya,Prabayar,simPATI,2022-04-17,True
+31,085385931109,Okta Santoso,Pascabayar,Halo,,True
+32,,Zaki Maulana,Prabayar,simPATI,2023-08-20,False
+33,085379599594,Okta Setiawan,Tidak Diketahui,Kartu As,2024-05-07,False
+34,082162050150,Okta Wibowo,Pascabayar,Kartu As,2022-08-24,False
+35,081330241026,Cindy Putra,Pascabayar,Halo,2022-08-16,False
+36,085255963099,Fajar Andriani,Pascabayar,Halo,2023-01-23,False
+37,085285787255,Dodi Saputra,Pascabayar,simPATI,2024-12-12,False
+38,085292548121,Maya Susanto,Pascabayar,Halo,2023-08-28,True
+39,081251488814,Hendra Lestari,Pascabayar,Loop,2023-04-12,False
+40,082245669078,Joko Santoso,Prabayar,Halo,2022-11-02,True
+41,,Umar Susanto,Pascabayar,Halo,2023-09-18,True
+42,081359999663,Andi Rahayu,Pascabayar,Kartu As,,True
+43,082233481705,Rizky Wibowo,Prabayar,simPATI,2024-11-27,False
+44,083194938743,Xena Hidayat,Prabayar,Halo,2022-01-16,True
+45,082269263296,Wawan Maulana,Prabayar,Loop,2024-07-26,True
+46,085281511856,Gita Purnomo,Pascabayar,Tidak Diketahui,2024-07-12,False
+47,,Wawan Purnomo,Pascabayar,simPATI,2022-11-27,False
+48,085308164709,Bambang Setiawan,Tidak Diketahui,simPATI,2022-01-10,False
+49,081306815583,Ahmad Hidayat,Prabayar,Tidak Diketahui,2023-03-01,False
+50,082301364971,Kartika Firmansyah,Pascabayar,Kartu As,2022-12-18,True
+51,082309976838,Xena Kusuma,Pascabayar,simPATI,2022-01-28,False
+52,083175245086,Andi Putra,Prabayar,Kartu As,2023-08-14,False
+53,081117130232,Eka Handoko,Prabayar,Kartu As,2022-07-07,False
+54,082147156627,Dian Handoko,Pascabayar!!,simPATI,2024-06-22,False
+55,085274746897,Eka Lestari,Prabayar,Halo,2022-05-28,False
+56,085201692364,Edi Kusuma,Pascabayar,Kartu As,2023-12-15,False
+57,083172439920,Citra Lestari,Prabayar,Halo,2022-08-28,True
+58,,Rini Wahyudi,Prabayar,Halo,2024-03-26,True
+59,085328179323,Bagas Setiawan,Pascabayar,simPATI,2022-05-01,False
+60,081193771004,Rizky Surya,Prabayar,Loop,2022-01-15,False
+61,082156690551,Okta Surya,PRABAYAR,Loop,2022-01-07,False
+62,085230505057,Xena Saputra,Pascabayar,Halo,2023-04-24,False
+63,081389802714,Fira Setiawan,Prabayar,simPATI,,False
+64,085312871539,Hendra Lestari,Pascabayar,Halo,2022-05-13,True
+65,082119525690,Okta Wahyudi,Pascabayar,Kartu As,2023-09-29,False
+66,081343772942,Wawan Surya,Pascabayar,Loop,2022-03-12,True
+67,081127642086,Gita Putra,Prabayar,Kartu As,2023-11-23,True
+68,082272927742,Tidak Diketahui,Prabayar,Kartu As,2023-03-06,False
+69,085320185962,Ahmad Maulana,Prabayar,simPATI,2024-04-07,True
+70,081111117830,Vina Maulana,Pascabayar,Loop,2024-09-09,True
+71,085188718981,Sari Wibowo,Prabayar!!,simPATI,2023-03-01,True
+72,081284582603,Andi Kusuma,Pascabayar,Loop,2023-09-08,True
+73,082103243298,Ahmad Wijaya,Pascabayar,Kartu As,2023-03-19,False
+74,082114359892,Citra Andriani,Prabayar,simPATI,2024-05-09,True
+75,081334016361,Okta Lestari,Pascabayar,Loop,2022-09-10,False
+76,082388967924,Rini Hidayat,Pascabayar,Loop,2022-01-20,False
+77,085384468341,Vina Maulana,Prabayar,simPATI,2023-09-18,True
+78,081377881609,Umar Saputra,Pascabayar,simPATI,2023-01-25,True
+79,082328506762,Eka Kusuma,Prabayar,Loop,2024-02-04,False
+80,,Zaki Wijaya,Pascabayar!!,simPATI,2023-09-04,False
+81,085365456284,Joko Putra,Pascabayar,Loop,2022-08-11,True
+82,082216787256,Fajar Purnomo,Prabayar,Loop,2024-10-24,False
+83,081167447163,Umar Firmansyah,Pascabayar,Halo,2022-11-09,False
+84,082192312604,Galih Hidayat,Prabayar,Kartu As,2023-01-29,False
+85,082254563502,Maya Pratama,Prabayar,Halo,2022-03-25,True
+86,082359895343,Bagas Surya,Prabayar,Kartu As,2024-02-26,True
+87,082182023684,Maya Purnomo,Prabayar,simPATI,2023-12-13,True
+88,082167881278,Dian Wijaya,Prabayar,simPATI,2024-02-26,False
+89,082144812308,Joko Nugroho,Prabayar,Kartu As,2023-05-03,False
+90,,Fira Maulana,Pascabayar,simPATI,2022-04-28,True
+91,082173543962,Fira Andriani,Prabayar,Kartu As,2024-07-02,False
+92,081369312163,Maya Hidayat,Prabayar,Tidak Diketahui,2024-07-20,True
+93,081390018513,Fitri Lestari,Pascabayar,Loop,2022-10-13,True
+94,085220303662,Ahmad Saputra,Prabayar,Kartu As,2023-12-25,True
+95,081192268592,Qori Kusuma,Pascabayar,Halo,2024-05-20,False
+96,081352677119,Budi Rahayu,Prabayar,Halo,2024-05-25,False
+97,085287887883,Ika Wibowo,Prabayar,simPATI,2024-02-27,False
+98,082352472863,Nur Wijaya,Prabayar,Halo,2023-03-08,True
+99,081125213109,Fira Hidayat,Pascabayar,Halo,2024-05-02,False
+100,081382066784,Andi Firmansyah,Prabayar,Kartu As,,False
+101,081277566205,Cindy Firmansyah,Pascabayar,simPATI,2024-05-18,True
+102,082141990970,Fajar_Wijaya,Pascabayar,Halo,2022-04-09,True
+103,085120967904,Zaki Pratama,Prabayar,Kartu As,2022-11-27,True
+104,082372545960,Fira Saputra,Tidak Diketahui,Loop,2024-03-04,True
+105,081342149551,Wawan Surya,Pascabayar,Kartu As,2022-05-26,True
+106,083127589551,Sandi Susanto,Prabayar,simPATI,2024-04-26,True
+107,085271577871,Rizky Putra,Pascabayar,Loop,2022-06-25,False
+108,081182723590,Kartika Handoko,Prabayar,Halo,2024-02-18,True
+109,085368342016,Fitri Nugroho,Pascabayar,Kartu As,2023-12-02,True
+110,083131992550,Budi Andriani,Pascabayar,Halo,2022-11-05,False
+111,082136829635,Ahmad Wijaya,Pascabayar,simPATI,2023-03-06,False
+112,085151276528,Bambang Susanto,Pascabayar,simPATI,2022-11-30,False
+113,085398178904,Tari Pratama,Pascabayar,Halo,2024-05-11,False
+114,085144446306,Qori Putra,Pascabayar,Halo,2022-03-08,False
+115,085226265826,Dewi Wahyudi,Pascabayar,Loop,2023-04-19,True
+116,083120981960,Umar Santoso,Prabayar,Kartu As,2022-09-25,True
+117,081309117911,Kartika Kusuma,Pascabayar,simPATI,2022-10-18,False
+118,082372240299,Tari Wibowo,Prabayar,simPATI,,False
+119,081152312447,Nur Setiawan,Pascabayar,Kartu As,2023-02-13,False
+120,083194237676,Sandi Pratama,Pascabayar,simPATI,2023-07-11,True
+121,085156012562,Luki Firmansyah,Pascabayar,simPATI,2024-01-03,True
+122,085249383184,Cindy Kusuma,Pascabayar,Halo,2022-06-03,True
+123,083163904090,Fira Surya,Tidak Diketahui,Halo,2024-08-03,True
+124,081285790647,Putri Wibowo,PRABAYAR,Kartu As,2024-10-07,False
+125,082380040104,Fitri Setiawan,Prabayar,simPATI,2022-06-03,False
+126,085139774573,Nur Saputra,Prabayar,Kartu As,2022-07-08,False
+127,085237153988,Gita Handoko,Prabayar,Loop,2023-10-04,False
+128,082262491271,Fajar Kusuma,Pascabayar,simPATI,2022-08-14,False
+129,082251066343,Dewi Handoko,Prabayar,simPATI,,False
+130,082196661347,Ahmad Lestari,Pascabayar,Halo,2023-02-26,False
+131,081357207650,Rizky Hidayat,Prabayar,simPATI,2022-12-30,True
+132,085182211457,Luki Putra,Pascabayar,Loop,2024-10-01,True
+133,081126325703,Kartika Saputra,Prabayar,Halo,2024-06-01,False
+134,083164430985,Okta Wibowo,Tidak Diketahui,Kartu As,2022-09-09,True
+135,085341407034,Dodi Nugroho,Prabayar,Loop,2022-09-10,True
+136,081336914307,Fitri Lestari,Prabayar,Loop,2023-12-28,True
+137,081368344149,Fajar Lestari,Prabayar,Loop,2024-08-02,False
+138,085212943985,Cindy Santoso,Pascabayar,Halo,2022-09-18,True
+139,082391497501,Kartika Pratama,Pascabayar,Kartu As,2024-11-12,True
+140,081210291813,Galih Setiawan,Prabayar,Kartu As,2023-02-23,True
+141,085220223288,Galih Pratama,Pascabayar,Halo,2023-02-15,False
+142,081296094097,Luki Handoko,Pascabayar,Loop,2022-03-29,False
+143,081325957244,Zaki Kusuma,Prabayar,Loop,2024-03-17,True
+144,081102311775,Sandi Kusuma,Prabayar,Halo,2023-04-20,True
+145,082390251762,Rizky Handoko,Prabayar,Kartu As,2023-02-14,True
+146,082369815287,Bagas Santoso,Prabayar,Halo,2023-01-25,True
+147,082109850344,Nur Purnomo,Prabayar,Loop,2024-03-10,True
+148,081156435023,Joko Santoso,Prabayar,simPATI,2023-11-07,False
+149,085324010783,Fitri Andriani,Prabayar,Kartu As,2023-12-19,False
+150,085262668217,Xena Wijaya,Pascabayar,simPATI,2022-08-30,True
+151,081110272405,Budi Putra,Pascabayar,simPATI,2023-12-18,False
+152,085345843845,Putri Putra,Pascabayar,Kartu As,2024-10-28,True
+153,081137710704,Qori Rahayu,Pascabayar,Halo,2023-07-24,False
+154,081185095493,Dewi Nugroho,Prabayar,Loop,2022-02-26,True
+155,081367320441,Ayu Lestari,Pascabayar,simPATI,2023-05-27,True
+156,081170705783,Vina Handoko,Pascabayar,Loop,2024-04-16,False
+157,083103102879,Eka Rahayu,Tidak Diketahui,Loop,2023-10-12,True
+158,085113359561,Vina Pratama,Pascabayar,Loop,2024-05-23,False
+159,083101935889,Luki Rahayu,Prabayar,simPATI,2023-12-06,True
+160,085281809788,Dian Andriani,Pascabayar,Loop,2024-06-22,False
+161,081258815793,Tari Maulana,Prabayar,Kartu As,2024-07-08,True
+162,081397327021,Tari Saputra,Prabayar,simPATI,2024-05-07,True
+163,081368341559,Umar Maulana,Pascabayar,Halo,2022-08-09,False
+164,081220995765,Edi Saputra,Prabayar,Halo,2024-06-17,False
+165,085149951542,Gita Susanto,Pascabayar,Kartu As,2022-08-31,True
+166,081188307053,Sari Firmansyah,Pascabayar,simPATI,2023-08-01,False
+167,081231528547,Nur Maulana,Prabayar,Loop,2024-11-16,False
+168,081396334727,Budi Putra,PRABAYAR,Kartu As,2023-01-19,True
+169,082378243477,Edi Putra,Pascabayar,Kartu As,2024-03-14,True
+170,081377963044,Putri Wibowo,Pascabayar,Halo,2024-11-05,True
+171,081147639283,Hendra Surya,Prabayar,Halo,2022-08-14,True
+172,082158328634,Dewi Saputra,Prabayar,simPATI,,True
+173,082216624111,Ika Wijaya,Prabayar,Halo,2024-10-30,True
+174,082273149764,Sari Nugroho,Prabayar,Halo,2024-05-29,False
+175,082175791452,Sari Wibowo,Prabayar,Halo,2022-06-21,True
+176,082252059960,Joko Susanto,Pascabayar,Halo,2023-07-04,False
+177,081262028123,Ahmad Susanto,Pascabayar,Halo,2024-06-15,True
+178,082395922483,Kartika Saputra,Prabayar,Halo!!,2024-01-31,True
+179,081287510979,Fajar Setiawan,Prabayar,Halo,2022-11-17,False
+180,082119213424,Cindy Andriani,Pascabayar,Tidak Diketahui,2022-07-29,False
+181,081327051028,Galih Rahayu,Prabayar,Halo,2024-06-19,True
+182,081342687741,Fira Setiawan,Pascabayar,Kartu As,2024-06-10,True
+183,082109451548,Qori Saputra,Prabayar,Loop,2022-01-27,False
+184,085327810509,Fira Handoko,Prabayar,simPATI,2022-11-10,False
+185,082329580660,Sari Surya,Prabayar,Kartu As,2022-05-14,True
+186,081257919711,Cindy Maulana,Prabayar,Kartu As,2022-07-05,False
+187,082206424295,Fajar Rahayu,Pascabayar,simPATI,2024-04-27,False
+188,083162893654,Dodi Wijaya,Pascabayar,Loop,2023-03-01,True
+189,081379559690,Tidak Diketahui,Pascabayar,simPATI,2023-10-23,True
+190,083179966734,Sari Handoko,Prabayar,simPATI,2024-02-04,False
+191,081349839225,Dodi Saputra,Pascabayar,Kartu As,2022-04-21,False
+192,081232850725,Gita Susanto,Pascabayar,simPATI,2022-07-24,False
+193,083168157903,Luki Susanto,Pascabayar,Kartu As,2022-12-31,True
+194,081344670462,Eka Susanto,Pascabayar,Tidak Diketahui,2022-12-01,True
+195,085366046419,Wawan Santoso,Pascabayar,Halo,2024-07-11,False
+196,082189760740,Edi Lestari,Pascabayar,Loop,2022-09-06,True
+197,082340915086,Sari Handoko,Pascabayar,Halo,2023-05-25,False
+198,081115502916,Dian Handoko,Pascabayar,Loop,2024-11-15,False
+199,082249883059,Fajar Wahyudi,Prabayar,Halo,2024-08-26,False
+200,082247951330,Tari Rahayu,Pascabayar,Loop,2023-10-27,True
+201,081377382646,Putri Handoko,Pascabayar,Loop,2022-03-08,False
+202,081395966048,Galih Wahyudi,Prabayar,simPATI,2024-10-02,False
+203,082336945515,Cindy Susanto,Pascabayar,Kartu As,2024-10-25,True
+204,081269666309,Wawan Hidayat,Pascabayar,Kartu As,2023-04-05,True
+205,085183275327,Fira Wibowo,Pascabayar,Halo,2023-02-14,True
+206,081337100687,Fira Surya,Prabayar,simPATI,,False
+207,085176112491,Qori Wibowo,Pascabayar,simPATI,2022-12-13,True
+208,085349490228,Vina Surya,Prabayar,Halo,2023-08-14,False
+209,082230394290,Luki Wibowo,Pascabayar,Loop,2023-06-16,True
+210,085172760153,Yudi Hidayat,Prabayar,Halo,,False
+211,081258148881,Andi Wibowo,Prabayar,Kartu As,2022-04-25,True
+212,082112840333,Kartika Kusuma,Prabayar,simPATI,2024-09-04,True
+213,083161739970,Dian Santoso,Pascabayar,Loop,2023-05-31,False
+214,081227058772,Maya Handoko,Pascabayar,Kartu As,2023-01-02,True
+215,085314939252,Nanda Saputra,Prabayar,Halo,2023-01-29,True
+216,082252455574,Joko Purnomo!!,Pascabayar,Tidak Diketahui,2024-05-21,False
+217,082305665883,Joko Nugroho,Prabayar,Halo,2023-03-17,False
+218,082299601054,Yudi Putra,Prabayar,Halo,2024-01-27,True
+219,082159848840,Fitri Handoko,Pascabayar,Halo,2022-10-15,False
+220,082249021666,Okta Setiawan,Pascabayar!!,Loop,2024-09-23,False
+221,081281828197,Rizky Wahyudi,Pascabayar,Kartu As,2023-01-26,True
+222,085294096003,Umar Santoso,Pascabayar,Kartu As,2023-10-23,False
+223,081334210890,Citra Setiawan,Prabayar,Kartu As,2022-09-18,False
+224,085316073607,Sari Rahayu,Prabayar,simPATI,2024-06-17,False
+225,082131857481,Nanda Susanto,Pascabayar,simPATI,2024-07-24,False
+226,081145023290,Rini Purnomo,Prabayar,Loop,2022-09-20,False
+227,082312073465,CITRA HIDAYAT,Prabayar,Halo,2023-06-28,True
+228,082331611776,Ahmad Santoso,Pascabayar,Loop,2024-06-20,False
+229,082123822311,Yudi Wahyudi,Pascabayar,Loop,2024-04-07,False
+230,081132020326,Andi Wibowo,Pascabayar,Loop,2023-10-23,True
+231,082257871584,Okta Hidayat,Pascabayar,Loop,2022-05-10,True
+232,081368323035,Fitri Saputra,Pascabayar,Kartu As,2024-12-12,False
+233,085196340646,Hendra Rahayu,Pascabayar,Loop,2024-12-04,True
+234,081372362669,Tari Rahayu,Prabayar,Kartu As,2023-02-01,False
+235,082281973741,Nur Saputra,Pascabayar,Loop,2024-07-19,False
+236,082181199537,Yudi Nugroho,Pascabayar,Loop,2024-06-04,False
+237,083173964178,Yudi Putra,Prabayar,simPATI,2024-02-09,True
+238,085205779806,Fira Susanto,Pascabayar,simPATI,2024-06-03,False
+239,085305742388,Ika Lestari,Pascabayar,Kartu As,2023-10-22,True
+240,085326347557,Nanda Firmansyah,Pascabayar,Loop,2024-01-11,False
+241,083164258562,Fitri Kusuma,Pascabayar,Loop,,False
+242,082133373204,Sari Purnomo,Prabayar,Halo,2023-05-15,False
+243,085255358512,Qori Lestari,Prabayar,Halo,2023-10-21,False
+244,085349079779,Cindy Putra!!,Prabayar,Kartu As,2024-06-12,True
+245,085362637484,Sari Firmansyah,Pascabayar,simPATI,2023-11-08,True
+246,081333922071,Ayu Susanto,Pascabayar,Halo,2023-11-11,True
+247,085312463351,Umar Lestari,Prabayar,Tidak Diketahui,2023-11-27,False
+248,081199512397,Rini Nugroho,Prabayar,Halo,2023-01-08,False
+249,083108144152,Vina Santoso,Pascabayar,Halo,2024-11-27,True
+250,082173605079,Qori Rahayu,Pascabayar,Loop,2022-07-22,False
+251,081270715879,Umar Wibowo,Prabayar,simPATI,2024-03-07,True
+252,085100463580,Nanda Wijaya,Prabayar,Kartu As,2024-06-07,False
+253,081106314035,Dian Firmansyah,Prabayar,Loop,2022-12-29,False
+254,081166643749,Kartika Susanto,Prabayar,Kartu As,2022-01-22,True
+255,082284494116,Joko Wibowo,Prabayar,Kartu As,2023-02-18,False
+256,083157279083,Ika Susanto,Pascabayar,Kartu As,2023-03-07,True
+257,082157071398,Hendra Hidayat,Prabayar,Kartu As,,False
+258,083106913098,Rini Santoso,Pascabayar,Halo,2022-06-01,False
+259,085153242642,Citra Handoko,Pascabayar,Kartu As,2024-01-24,False
+260,085377675556,Tari Susanto,Prabayar,Loop,2022-09-30,False
+261,085227187496,Maya Setiawan,Pascabayar,Kartu As,2022-04-15,False
+262,083132657327,Citra Wibowo,Prabayar,SIMPATI,2023-10-10,True
+263,082215959775,Citra Setiawan,Prabayar,Halo,2022-12-25,True
+264,081371026767,Ika Pratama,Pascabayar,simPATI,2022-12-16,True
+265,081329462135,Qori Kusuma,Pascabayar!!,Loop,2023-08-22,True
+266,082320344765,Sari Purnomo,Pascabayar,Tidak Diketahui,2022-03-24,False
+267,085255866525,Andi Lestari,Prabayar,simPATI,2023-06-20,True
+268,083131100591,Rizky Rahayu,Pascabayar,simPATI,2022-11-16,True
+269,085233016583,Fitri Santoso,Pascabayar,simPATI,2024-09-01,False
+270,082111325326,Bambang Wahyudi,Pascabayar,Loop,2023-08-31,False
+271,085217015959,Dewi Firmansyah,Pascabayar,Halo,2022-05-15,True
+272,085375677722,Putri Susanto,Tidak Diketahui,Kartu As,2024-02-29,True
+273,082330762484,Citra Lestari,Prabayar,Loop,2023-04-12,False
+274,085173670425,Citra Putra,Pascabayar,Kartu As,2023-09-29,False
+275,082335748595,Ika Setiawan,Prabayar,Kartu As,,False
+276,081287794176,Galih Surya,Prabayar,simPATI,2023-01-31,False
+277,082398339914,Nanda Purnomo,Pascabayar,simPATI,2022-05-05,True
+278,082372768297,Tari Kusuma,Pascabayar,Loop,2023-10-06,True
+279,085280656259,Citra Surya,Prabayar,Halo,2022-03-12,True
+280,082355165176,Ika Kusuma,Prabayar,simPATI,2022-05-08,True
+281,081137003322,Cindy Santoso,Pascabayar,Halo,2024-10-22,False
+282,082319582632,Yudi Santoso,Pascabayar,Loop,2022-01-16,True
+283,085398632106,Vina Santoso,Pascabayar,Loop,2022-08-07,True
+284,085104032537,Joko Setiawan,Pascabayar,Kartu As,,True
+285,081147692105,Budi Lestari,Pascabayar,simPATI,2023-03-17,False
+286,081301137984,Sari Purnomo,Pascabayar,Halo,2023-07-08,True
+287,082247340433,Andi Kusuma,Pascabayar,Kartu As,2024-07-06,True
+288,085125588255,Wawan Purnomo,Pascabayar,Halo,2024-04-13,True
+289,082377820582,Bagas Surya,Prabayar,Halo,2023-12-01,True
+290,083104823571,Ayu Pratama,Pascabayar,Halo,2023-10-29,False
+291,085117214364,Fajar Santoso,Prabayar,simPATI,2023-03-05,True
+292,082256534699,Budi Firmansyah,Pascabayar,Halo,2024-09-06,True
+293,082370607174,Edi Firmansyah,Pascabayar,Halo,2022-07-08,False
+294,081129087182,Tari Pratama,Prabayar,Halo,2024-08-06,True
+295,081221377306,Okta Susanto,Pascabayar,simPATI,2022-12-28,True
+296,082360858167,Vina Purnomo,Pascabayar,Halo,2022-03-10,False
+297,083123785847,Dodi Kusuma,Prabayar,Kartu As,2022-05-17,True
+298,082298042537,Nur Saputra,Pascabayar,simPATI,2023-03-14,True
+299,081336534606,Rizky_Wahyudi,Prabayar,Halo,2022-03-29,True
+300,085290618120,Yudi Kusuma,Pascabayar,Loop,2024-01-27,False
+301,083199275175,Edi Andriani,Pascabayar,Kartu As,2024-12-27,True
+302,082386449639,Maya Setiawan,Pascabayar,Kartu As,2022-10-13,False
+303,085353674978,Okta Hidayat,Pascabayar,Loop,2023-12-01,True
+304,085234067917,Zaki Wahyudi,Prabayar,simPATI,2024-06-14,False
+305,083100159446,Gita Wijaya,Pascabayar,Loop,2023-05-08,False
+306,081319947113,Galih Santoso,Tidak Diketahui,Loop,2024-04-12,False
+307,085277269608,Ahmad Kusuma,Pascabayar,Halo,2023-07-11,False
+308,085233556434,Rini Hidayat,Prabayar,simPATI,2023-04-18,False
+309,081264534547,Vina Susanto,Prabayar,Loop,2022-11-20,False
+310,082218472426,Cindy Wijaya,Prabayar,simPATI,2023-07-25,False
+311,085223039111,Cindy Purnomo,Pascabayar,Tidak Diketahui,2023-07-06,True
+312,085106220722,Sari Saputra,Prabayar,Kartu As,,False
+313,085368868785,Wawan Saputra,Pascabayar,simPATI,2024-04-09,True
+314,082250573036,Rini Wibowo,Pascabayar,Kartu As,2022-10-29,False
+315,081360321450,Gita Handoko,Pascabayar,Halo,2023-12-19,True
+316,085120128400,Fajar Nugroho!!,Pascabayar,Loop,2024-11-09,False
+317,081189812657,Umar Saputra,Pascabayar,Loop,2023-07-02,False
+318,085194301204,Citra Susanto,Pascabayar,Loop,2024-09-15,True
+319,082382984933,Cindy Surya,Pascabayar,Loop,2022-02-15,False
+320,081318856669,Ika Handoko,Prabayar,simPATI,2023-11-10,False
+321,081243776936,Okta Maulana,Prabayar,simPATI,2024-05-30,False
+322,081300720245,Yudi Kusuma,Prabayar,simPATI,2024-01-02,False
+323,082294981942,Yudi Pratama,Prabayar,Loop,2022-05-14,False
+324,085144663453,VINA MAULANA,Prabayar,Kartu As,2023-05-08,False
+325,085261894370,Ika Purnomo,Pascabayar,Halo,2024-01-16,True
+326,082392024617,Nanda Susanto,Pascabayar,Tidak Diketahui,2023-11-17,True
+327,081117833258,Qori Surya,Prabayar,simPATI,2023-07-15,True
+328,082250691767,Wawan Wijaya,Prabayar,Tidak Diketahui,2023-04-18,False
+329,085206014886,Vina Putra,Pascabayar,Halo,2022-02-03,True
+330,085152830615,Ika Wibowo,Pascabayar,Loop,2023-05-18,False
+331,085181121031,Luki Nugroho,Pascabayar,Loop,2023-07-08,False
+332,082209112252,Fajar Andriani,Pascabayar!!,Halo,2024-12-05,False
+333,083113787655,Galih Purnomo,Prabayar,Loop,2023-02-12,False
+334,085181927788,Ahmad Firmansyah,Prabayar,Loop,2023-11-29,False
+335,085224561851,Bagas_Lestari,Prabayar,simPATI,2024-10-17,True
+336,083139130448,Nur Hidayat,Pascabayar,simPATI,,True
+337,081311901707,Kartika Wijaya,Prabayar,Tidak Diketahui,2024-01-10,False
+338,085208493783,Zaki Putra,Pascabayar,Halo,2022-05-02,True
+339,085301693429,Joko Firmansyah,Prabayar,simPATI,2023-01-13,False
+340,081131061537,Nur Wahyudi,Pascabayar,Loop,2022-10-23,False
+341,085374604067,Fajar Putra,Pascabayar,Loop,2022-11-21,True
+342,083175437347,Ayu Kusuma,Prabayar,Kartu As,2024-03-10,False
+343,085201913443,Tidak Diketahui,Prabayar,Tidak Diketahui,2024-12-21,True
+344,082293699951,Umar Lestari,Pascabayar,Loop,2024-02-18,False
+345,082160376811,Dian Rahayu,Prabayar,Halo,2024-06-22,False
+346,082191149830,Fitri Surya,Prabayar,Kartu As,2024-09-01,True
+347,081165578201,Dian Lestari,Prabayar,Kartu As,2022-02-13,False
+348,081235462127,Bagas Wijaya,Pascabayar,Kartu As,2024-02-14,False
+349,085189957298,Kartika Saputra,Pascabayar,simPATI,2023-03-18,False
+350,081303818769,Edi Pratama,Prabayar,simPATI,2022-10-04,True
+351,085122067323,Joko Surya,Prabayar,Kartu As,2022-07-03,True
+352,081115291137,Sari Santoso,Prabayar,Loop,2022-07-21,False
+353,081318299874,Luki Lestari,Pascabayar,Loop,2024-10-02,True
+354,082236551584,Dewi Santoso,Pascabayar,Loop,2024-12-21,True
+355,081170633699,Andi Andriani,Prabayar,simPATI,2024-07-31,True
+356,082228773836,Budi Lestari,Prabayar,Loop,2023-01-20,False
+357,081303625863,Tari Nugroho,Pascabayar,Halo,2022-08-02,True
+358,085235582430,Andi Hidayat,Prabayar,Loop,2022-06-23,True
+359,083105040433,Bagas Handoko,Pascabayar,simPATI,2023-03-19,True
+360,085171809339,Fira Handoko,Pascabayar,Halo,2022-07-07,True
+361,085217868800,Yudi Surya,Pascabayar,Kartu As,,True
+362,082291609365,Yudi Lestari,Prabayar,Loop,2023-12-10,True
+363,081363223998,Sari Wahyudi,Prabayar,Loop,2022-10-30,True
+364,082176660811,Sari Surya,Prabayar,Halo,2022-09-21,True
+365,082331234550,Wawan Kusuma,Pascabayar,Kartu As,2024-05-30,True
+366,082148087354,Andi Pratama,Prabayar,Loop,2023-05-02,True
+367,081185991449,Sari Firmansyah,Prabayar,Halo,2023-01-08,False
+368,083171842859,Cindy Firmansyah,Pascabayar,Kartu As,2024-02-26,False
+369,085298069087,Citra Susanto,Prabayar,Kartu As,2022-11-14,True
+370,082338280405,Nanda Firmansyah,Pascabayar,Kartu As,2024-04-14,False
+371,085169656130,Kartika Kusuma,Prabayar,Loop,2024-09-13,False
+372,,Sandi Andriani,Pascabayar,simPATI,2024-09-06,False
+373,082300168094,Fajar Firmansyah,Pascabayar,Kartu As,2022-06-14,False
+374,082240777946,Qori Putra,Pascabayar,LOOP,2022-11-29,False
+375,081399140688,Rini Wijaya,Prabayar,Kartu As,2023-06-23,False
+376,081132119206,Fitri Handoko,Pascabayar,Loop,2022-08-19,False
+377,083102950264,Maya Lestari,Prabayar,Loop,2024-11-11,False
+378,081321021798,Yudi Saputra,Prabayar,Halo,2023-01-09,False
+379,082118285605,Hendra Andriani,Pascabayar,simPATI,2023-04-14,False
+380,081305068212,Sandi Saputra,Pascabayar,simPATI,2023-01-05,True
+381,081318219259,Sandi Wahyudi,Pascabayar,Loop,2024-03-25,False
+382,081193869484,Andi Surya,Prabayar,Halo,2022-09-24,True
+383,082323867673,Vina Kusuma,Prabayar,Halo,2023-01-18,False
+384,085172258937,Tidak Diketahui,Prabayar,Loop,,False
+385,085390012482,Galih Surya,Pascabayar,Loop,2023-12-03,False
+386,083146338915,Bagas Andriani,Pascabayar,Kartu As,2024-04-09,True
+387,082158951381,Edi Putra,Pascabayar,simPATI,2024-03-12,True
+388,082149189117,Hendra Santoso,Prabayar,Loop,2024-09-18,False
+389,081232593678,Nanda Setiawan,Pascabayar,simPATI,2022-07-19,True
+390,085119878092,Rini Firmansyah,Pascabayar,Loop,2024-09-05,False
+391,085167874422,Nanda Wahyudi,Pascabayar,Halo,2024-10-06,False
+392,,Luki Hidayat,Pascabayar,Kartu As,2022-10-06,True
+393,082105570836,Nanda Kusuma,Pascabayar,Halo,2023-01-09,False
+394,085220258254,Vina Nugroho,Prabayar,simPATI,2023-03-05,False
+395,081206018364,Maya Firmansyah,Prabayar,simPATI,2024-09-29,True
+396,082384726290,Nanda Lestari,Pascabayar,Kartu As,2023-10-29,False
+397,081317337399,Nur Purnomo,Prabayar,simPATI,2023-01-17,True
+398,085182325539,Maya Putra,Pascabayar,Kartu As,2023-02-21,True
+399,083179127997,Joko Lestari,Prabayar,Halo,2022-01-06,True
+400,082122012560,Cindy Saputra,Pascabayar,Halo,2023-01-21,False
+401,081338600304,Zaki Maulana,Pascabayar,Kartu As,2023-09-11,True
+402,081395014374,Tidak Diketahui,Pascabayar,Halo,2024-11-13,True
+403,082121767201,Citra Pratama,Prabayar,Halo,2022-07-02,True
+404,083130493665,Ika Setiawan,Pascabayar,Loop,,False
+405,083152294620,Okta Santoso,Prabayar,simPATI,2023-02-01,True
+406,081113712436,Edi Purnomo,Prabayar,simPATI,,True
+407,081373874029,Qori Firmansyah,Prabayar,Loop,2022-05-06,True
+408,082140301095,Dodi Santoso,Pascabayar,simPATI,2024-04-10,True
+409,082147124760,Umar Hidayat,Prabayar,Halo,2022-08-15,True
+410,081180815712,Umar Saputra,Prabayar,Halo,2022-03-04,True
+411,082384743621,Dewi Nugroho,Pascabayar,Loop,2023-02-07,True
+412,085227466621,Fajar Firmansyah,PASCABAYAR,Halo,2023-12-25,False
+413,081179771400,Rizky Pratama,Pascabayar,simPATI,2023-06-22,True
+414,083176987313,Edi Nugroho,Pascabayar,simPATI,2024-08-06,False
+415,082125623899,Kartika Putra,Prabayar,Loop,2023-08-16,False
+416,081187821160,Gita Handoko,Pascabayar,simPATI,2022-11-21,True
+417,085321170889,Zaki Wahyudi,Pascabayar,Kartu As,2023-08-17,True
+418,085385708200,Hendra Wahyudi,Prabayar,simPATI,2023-06-16,False
+419,085394296882,Dodi Saputra,Pascabayar,simPATI,2024-08-06,True
+420,082360783274,Umar Pratama,Pascabayar,Halo,2023-04-05,False
+421,085204784217,Joko Firmansyah,Pascabayar,Halo,,True
+422,082190624672,Bambang Saputra,Prabayar,simPATI,2024-12-15,True
+423,082161337605,Fira Hidayat,Prabayar,simPATI,2023-01-18,True
+424,083116503440,Joko Pratama,Prabayar,Loop,2024-05-02,True
+425,085382141746,Budi Wibowo,Prabayar,Loop,2024-11-24,False
+426,083187486941,Edi Wibowo,Prabayar,Kartu As,2023-11-02,True
+427,082311716039,Rini Wijaya,Prabayar,Loop,2024-03-19,True
+428,081348942046,Dian Nugroho,Pascabayar,Loop,,True
+429,085358097453,Qori Purnomo,Pascabayar,Halo,2023-01-29,False
+430,081265995300,Luki Wijaya,Pascabayar,Halo,2024-05-21,True
+431,,Ahmad Kusuma,Prabayar,Halo,2024-03-06,False
+432,083157047264,Eka Wahyudi,Prabayar,Kartu As,2022-12-03,False
+433,085107852548,Edi Wibowo,Pascabayar,Loop,2022-12-25,True
+434,082323112327,Luki Handoko,Prabayar,Halo,2023-08-08,False
+435,081303886217,Dodi Purnomo,Pascabayar,Loop,,True
+436,082293534001,Zaki Rahayu,Prabayar,Kartu As,2024-11-20,True
+437,085138517993,Umar_Wijaya,Prabayar,Loop,2024-07-11,True
+438,085129045792,Edi Saputra,Prabayar,Halo,2024-09-08,False
+439,085328339121,Hendra Wahyudi,Prabayar,simPATI,2024-10-20,False
+440,081332001867,Nur Santoso!!,PRABAYAR,Kartu As,2024-06-07,False
+441,082331980746,Cindy Nugroho,Prabayar,simPATI,2022-10-11,True
+442,083167150066,Kartika Surya!!,Pascabayar,Tidak Diketahui,2024-03-09,True
+443,082297089058,Galih Wahyudi,Pascabayar,simPATI,2023-02-03,True
+444,085387915059,Dian Pratama,Pascabayar,simPATI,2024-05-28,True
+445,085126041809,Ayu Wahyudi,Pascabayar,Halo,2024-01-25,False
+446,081311882419,Rini Firmansyah,Pascabayar,Halo,2024-04-04,True
+447,081318545705,Qori Lestari,Tidak Diketahui,simPATI,2024-06-10,False
+448,082207232472,Okta Susanto,PASCABAYAR,Kartu As,2024-10-27,True
+449,085285071058,Tari Kusuma,Pascabayar,simPATI,2022-05-01,True
+450,,Hendra Handoko,Prabayar,Loop,2023-10-05,False
+451,085369893652,Dian Saputra,Prabayar,Kartu As,2023-06-11,True
+452,082250258963,Rizky Wijaya,Pascabayar,Kartu As,2023-01-11,True
+453,085206739834,Kartika Andriani,Pascabayar,Loop,,True
+454,081165795515,Tidak Diketahui,Prabayar,Loop,2024-03-24,False
+455,082111178619,Fira Pratama,Pascabayar,Kartu As,2022-02-09,False
+456,081301227595,Kartika Kusuma,Pascabayar,Kartu As,2022-05-02,False
+457,083150740717,Joko Handoko,Pascabayar,simPATI,2023-01-27,False
+458,082191045203,Maya Santoso,Prabayar,simPATI,2024-05-27,True
+459,082353595205,Eka Andriani,Prabayar,Halo,2024-03-05,True
+460,082203784233,Vina Purnomo,Prabayar!!,Tidak Diketahui,2023-08-15,True
+461,082165426241,Rizky Purnomo,Prabayar,Loop,2024-07-29,True
+462,082330886843,Tari Wijaya,Prabayar,simPATI,2022-01-29,False
+463,085175921299,Dian Andriani,Pascabayar,simPATI,2024-05-17,True
+464,085309207115,Joko Handoko,Prabayar,Kartu As,2022-11-28,True
+465,082391611863,Yudi Santoso,Pascabayar,simPATI,2024-01-31,True
+466,083131869289,Xena Andriani,Pascabayar,Kartu As,2024-09-09,True
+467,082282322041,Gita Firmansyah,Prabayar,Loop,2023-07-23,False
+468,081130423227,Budi Rahayu,Pascabayar,Kartu As,2024-10-16,False
+469,081159377756,Fajar Santoso,Prabayar,simPATI,2022-07-16,False
+470,081204384196,Ayu Setiawan,Tidak Diketahui,simPATI,2024-03-13,False
+471,081163621986,Sandi Handoko,Pascabayar,Halo,2024-01-12,False
+472,082304962732,Dian Susanto,Prabayar,Kartu As,2022-12-12,True
+473,081288087991,Kartika Rahayu,Prabayar,Halo,2024-04-14,False
+474,081350583334,Luki Handoko,Pascabayar,Halo,2023-02-19,False
+475,085357694535,Dian Lestari,Pascabayar,Halo,2023-05-07,True
+476,082250809594,Eka Surya,Pascabayar,Halo,2024-11-06,False
+477,082159142614,Kartika Rahayu,Prabayar,Halo,2022-04-18,True
+478,083163731008,Dewi Handoko,Prabayar,Halo,2022-09-07,False
+479,085287447017,Kartika Hidayat,Prabayar,Loop,2023-02-02,False
+480,085265633701,Bagas Wahyudi,Pascabayar,simPATI,2023-07-25,True
+481,081321425731,Citra Purnomo,Prabayar,simPATI,,False
+482,081386209297,Putri Maulana,Prabayar,Kartu As,2023-05-20,False
+483,083120457353,Ayu Firmansyah,Pascabayar,Halo,2022-09-22,True
+484,085201071261,Dodi Setiawan,Prabayar,Halo,2023-12-27,False
+485,085273574223,Bambang Lestari,Prabayar,Loop,2023-03-20,False
+486,081325606295,Dian Rahayu,Pascabayar,simPATI,2023-03-09,False
+487,085353841852,Ika Santoso,Prabayar,Halo,2022-01-28,True
+488,085305549121,Nanda Lestari,Pascabayar,simPATI,2024-01-25,True
+489,082320702042,Cindy Purnomo,Pascabayar,simPATI,2024-06-09,False
+490,085278976098,Umar Firmansyah,Prabayar,Kartu As,2024-08-29,True
+491,085189786533,Okta Wahyudi,Pascabayar,Loop,,True
+492,085364497470,Sari Maulana,Pascabayar,Halo,2022-04-13,True
+493,082360450063,Fajar Wibowo,Pascabayar,Kartu As,2023-12-24,False
+494,083163530597,Putri Rahayu,Pascabayar,Kartu As,2022-01-17,True
+495,082396546634,Cindy Wahyudi,Prabayar,simPATI,2023-11-08,True
+496,083134497439,Edi Putra,Prabayar,Loop,2023-07-07,False
+497,085194132109,Dian Andriani,Prabayar,Loop,2024-07-01,True
+498,081303004496,Edi Rahayu,Prabayar,Loop,2023-09-16,False
+499,085196359570,Sandi Maulana,Prabayar,Loop,2024-05-31,False
+500,085150342362,Hendra Andriani,Pascabayar,simPATI,2022-10-05,False
+501,081108529469,Sandi Andriani,Pascabayar,Halo,2022-04-13,True
+502,082302289466,Hendra Andriani,Prabayar,Kartu As,2023-11-24,False
+503,082130303346,Dian Pratama,Pascabayar,Halo,2024-08-17,True
+504,081124530123,Nanda_Putra,Prabayar,Halo,2023-06-14,False
+505,085322240507,Sari Kusuma,Prabayar,Halo,2024-04-27,True
+506,081165838727,Eka Lestari,Prabayar,Loop,2022-10-31,True
+507,085333791212,Citra Putra,Prabayar,Halo,,False
+508,081139251999,Yudi Nugroho,Prabayar,Kartu As,2023-05-31,False
+509,081305422162,Wawan Hidayat,Pascabayar,Tidak Diketahui,2024-02-11,False
+510,082270488789,Luki Nugroho,Pascabayar,simPATI,2023-11-09,False
+511,081366329563,Joko Firmansyah,Prabayar,simPATI,2023-07-03,True
+512,081159229411,Fira Rahayu,Prabayar,Halo,2023-10-23,False
+513,082220661549,Eka Firmansyah,Prabayar,Kartu As,2024-11-19,True
+514,081315481582,Citra Pratama,Prabayar,Loop,2024-06-10,True
+515,085229877873,Budi Wijaya,Pascabayar,Loop,2023-10-05,False
+516,083126221320,Eka Pratama,Prabayar,Halo,2023-09-18,False
+517,083172699994,Fitri Purnomo,Prabayar,Halo,2024-12-14,False
+518,082128538631,Budi Maulana,Tidak Diketahui,Loop,2022-01-08,True
+519,081107686276,Dian Firmansyah,Pascabayar,Kartu As,2023-05-15,True
+520,085226713684,Nur Andriani,Prabayar,Kartu As,2022-08-11,False
+521,083118750677,Eka Handoko,PRABAYAR,Loop,2024-02-29,True
+522,085381596983,Tari Pratama,Prabayar,Halo,2023-09-05,True
+523,082373498992,Ahmad Rahayu,Prabayar,Kartu As,2023-12-05,False
+524,085294179967,Galih Susanto,Pascabayar,Loop,2022-02-14,True
+525,085273478536,Maya Pratama,Tidak Diketahui,Kartu As,2024-12-28,True
+526,081126270664,Dodi Pratama,Tidak Diketahui,Kartu As,2022-05-06,True
+527,082199741856,Bambang Andriani,Prabayar,Halo,2023-04-30,True
+528,082364184937,Gita Santoso,Prabayar,Kartu As,,False
+529,081203444429,Umar Maulana,Pascabayar,Loop,2022-03-30,False
+530,083167256222,Putri Firmansyah,Pascabayar,Halo,2022-09-13,True
+531,083139652138,Nanda Maulana,Pascabayar,Kartu As,2023-04-07,True
+532,081311732772,Sandi Rahayu,Pascabayar,Loop,2024-05-21,True
+533,082316185759,Putri Rahayu,Prabayar,Loop,2022-06-22,True
+534,082278417159,Putri Rahayu,Prabayar,simPATI,2023-09-07,True
+535,082189260878,Rizky Setiawan,Prabayar,simPATI,2024-12-31,False
+536,085346535378,Eka Pratama,Pascabayar,Halo,2022-04-13,False
+537,083114336299,Edi Wibowo,Pascabayar,simPATI,2023-06-11,True
+538,081183521189,Hendra Wahyudi,Pascabayar,Loop,2024-04-18,True
+539,085328575958,Edi Maulana,Prabayar,Halo,2022-09-16,False
+540,085183971705,Bagas Nugroho,Pascabayar,Halo,2024-12-19,True
+541,081138856811,Eka Setiawan,Pascabayar,simPATI,2023-05-19,False
+542,085379055286,Dodi Pratama,Pascabayar,simPATI,2024-05-16,False
+543,081111939103,Bagas Wibowo,Pascabayar,Halo,2024-12-26,True
+544,081145024373,Zaki Pratama,Pascabayar,Kartu As,2024-03-31,True
+545,082135390058,Sandi Wahyudi,Pascabayar,Kartu As,2023-10-21,False
+546,081355116436,Yudi Wahyudi,Prabayar,Halo,2022-03-29,True
+547,085116441610,Luki Hidayat,Prabayar,Loop,2022-08-03,True
+548,081127304276,Cindy Andriani,Pascabayar,Kartu As,2023-03-04,True
+549,085364909228,Andi Susanto,Pascabayar,Loop,2023-07-24,False
+550,081168811640,Kartika Setiawan,Prabayar,Halo,2023-02-20,False
+551,082277041309,Gita Wibowo,Pascabayar,Kartu As,2022-01-26,True
+552,082119057720,Rizky Hidayat,Pascabayar,Loop,2023-07-04,False
+553,083141224870,Galih Purnomo,Pascabayar,simPATI,2024-08-30,False
+554,081361189003,Joko Setiawan,Pascabayar!!,Kartu As,2023-09-18,True
+555,085221953689,Ika Wibowo,Pascabayar,simPATI!!,2022-03-05,False
+556,081321138690,Andi Handoko,Prabayar,Loop,2024-11-09,True
+557,085307443602,Cindy Kusuma,Prabayar,Halo,2023-04-07,True
+558,083144772690,Citra Santoso,Prabayar,simPATI,2023-03-03,True
+559,082359851602,Bagas Lestari,Prabayar,Halo,2022-08-05,True
+560,085168623760,Joko Purnomo,Prabayar,simPATI,,True
+561,085240069836,Bagas Kusuma,Pascabayar,simPATI,2022-09-19,True
+562,081320212372,Kartika Susanto,Tidak Diketahui,Halo,2022-01-30,False
+563,083100889911,EDI PRATAMA,Prabayar,Halo,2023-06-01,False
+564,083106085481,Dian Handoko,Pascabayar,simPATI,2024-05-20,False
+565,081251985458,Ahmad Saputra,Prabayar,simPATI,2022-10-17,True
+566,082369994494,Sari Handoko,Prabayar,simPATI,2024-04-08,True
+567,082187940262,Citra Rahayu,Pascabayar,Loop,2022-03-10,False
+568,081141291828,Wawan Santoso,Prabayar,Loop,2023-11-11,False
+569,085392304660,Andi Wijaya,Prabayar,Kartu As,2022-04-21,False
+570,081304850766,Putri Kusuma,Pascabayar,Loop,2023-10-28,False
+571,081119153057,Maya Wibowo,Pascabayar,Halo,2023-02-24,True
+572,081367086665,Bagas Handoko,Pascabayar,Halo,2024-03-30,True
+573,083103500618,Fitri Hidayat,Prabayar,Kartu As,2023-09-14,False
+574,081221564952,Cindy Rahayu!!,Pascabayar,simPATI,2024-01-01,False
+575,081282730634,Bambang Andriani,Prabayar,Loop,,False
+576,081210212543,Sari Maulana,Pascabayar,Halo,2023-07-26,False
+577,081103203197,ZAKI WIBOWO,Pascabayar,Halo,2022-04-12,False
+578,085225908419,Andi Pratama,Pascabayar,simPATI,2023-08-07,True
+579,085328878072,Nur Santoso,Pascabayar,simPATI,2024-08-16,False
+580,085247718375,Fira Wahyudi,Prabayar,simPATI,2023-04-10,True
+581,081124432362,Zaki Wijaya,Pascabayar,Loop,2022-11-29,True
+582,081269139521,Vina Maulana,Tidak Diketahui,simPATI,2023-10-22,False
+583,082231983924,JOKO HIDAYAT,Prabayar,Kartu As,2023-08-23,False
+584,085246339534,Qori Andriani,Pascabayar,Kartu As,2022-07-05,False
+585,085338551281,Nur Surya,Pascabayar,simPATI,2024-07-08,False
+586,081336024465,Fira Handoko,Pascabayar,simPATI,2023-07-28,True
+587,082170317543,Xena Andriani,Pascabayar,Halo,2024-12-21,False
+588,085227288407,Sandi Saputra,Prabayar,Kartu As,2024-05-03,False
+589,083123868790,Bagas Maulana,Pascabayar,simPATI,2024-04-12,False
+590,083127396159,Sari Saputra,Pascabayar,Halo,2024-07-09,True
+591,081290384227,Dodi Susanto,Prabayar,Kartu As,2023-03-07,False
+592,083117162042,Yudi Susanto,Prabayar,simPATI,,False
+593,083180142647,Eka Susanto,Prabayar,simPATI,2022-06-08,True
+594,082293326724,Budi Wijaya,Prabayar,Halo,,True
+595,082202599851,Sandi Surya,Pascabayar,Kartu As,2023-03-25,True
+596,085202667652,Maya Wahyudi,Pascabayar,LOOP,2024-07-18,True
+597,082360208019,Tari Purnomo,Pascabayar,simPATI,2022-12-18,True
+598,082133202351,Dodi Maulana,Prabayar,Kartu As,2022-03-25,False
+599,083188843933,Hendra Wibowo,Pascabayar,simPATI,2023-01-30,False
+600,082212907596,Bagas Lestari,Prabayar,Halo,2023-10-04,True
+601,085229419375,Rizky Santoso,Prabayar,Halo,2022-07-20,False
+602,082261209617,Zaki Wibowo,Pascabayar,Kartu As,2023-04-14,False
+603,082314321914,Putri Santoso,Pascabayar,Kartu As,2023-05-02,False
+604,082145819204,Zaki Andriani,Prabayar,Kartu As,2024-09-16,True
+605,081357846408,Galih Wijaya,Prabayar,Loop,2023-11-15,False
+606,082267292543,Sari Saputra,Prabayar,simPATI,2023-10-16,False
+607,082272863942,Sandi Hidayat,Pascabayar,Kartu As,2022-01-27,False
+608,081126604509,Dodi Handoko,Prabayar,simPATI,2024-01-10,True
+609,081322471193,Bambang Firmansyah,Prabayar,Loop,2024-02-22,False
+610,085226438500,Dewi Purnomo,Pascabayar,simPATI,2023-10-29,False
+611,082216423165,Galih Lestari,Prabayar,Halo,2023-07-20,True
+612,083142904617,Gita Lestari,Prabayar,Kartu As,,True
+613,082241723456,Vina Nugroho,Prabayar,Loop,2023-11-18,False
+614,085323864100,Andi Lestari,Pascabayar,Loop,2023-11-26,True
+615,085114604761,Hendra Purnomo,Prabayar,Halo,2023-08-25,True
+616,085326368154,Joko Susanto,Prabayar,Kartu As,2022-06-28,True
+617,085204356605,Wawan Andriani,Prabayar,Halo,2022-03-16,False
+618,081322667941,Nur Andriani,Prabayar,simPATI,2022-02-03,False
+619,083187605504,Dodi Saputra,Pascabayar,Halo,2022-10-10,False
+620,085229073992,Dewi Kusuma,Prabayar,Halo,2024-11-08,False
+621,085164942694,Wawan Santoso,Prabayar,Kartu As,2022-11-20,True
+622,082399670692,Tidak Diketahui,Pascabayar,Loop,2022-05-11,True
+623,081317816780,Ika Wijaya,Prabayar,simPATI,2024-03-02,True
+624,081250370170,Citra Saputra,Prabayar,simPATI,2022-11-16,True
+625,082248500728,Cindy Hidayat,Pascabayar,Halo,2024-11-05,True
+626,081376620808,Rini Pratama,Prabayar,Loop,2022-10-01,False
+627,082387012042,Eka Lestari,Prabayar,Kartu As,2023-09-03,True
+628,082196702436,Sandi Wijaya,Pascabayar,Loop,2023-10-14,False
+629,082164882159,Kartika Santoso,Pascabayar,Kartu As,2024-07-14,False
+630,085249125949,Galih Saputra,Prabayar,Halo,2024-09-19,False
+631,081279962356,Tari Wibowo,Prabayar,Halo,2022-11-13,False
+632,082360413482,Galih Hidayat,Prabayar,Kartu As,2022-04-11,False
+633,081244076291,Sari Santoso,Prabayar,Kartu As,2023-09-17,False
+634,,Xena Rahayu,Prabayar,Loop,2022-10-05,False
+635,082289629805,Ahmad Firmansyah,Tidak Diketahui,Halo,2024-04-03,True
+636,081143474125,Citra Nugroho,Pascabayar,Halo,2023-04-07,True
+637,083120259991,Tari Kusuma,Prabayar,Loop,2023-02-11,True
+638,081178623510,Yudi Susanto,Pascabayar,Loop,2024-08-21,False
+639,081245634091,Edi Maulana,Prabayar,Loop,2023-12-27,True
+640,081177004093,Nur Wibowo,Prabayar,Kartu As,,True
+641,082185886407,Dodi Wijaya,Pascabayar,Loop,2024-12-29,False
+642,081330397440,Okta Susanto,Pascabayar,Halo,2024-10-27,False
+643,081284311326,Fira Firmansyah,Prabayar,Kartu As,2024-02-15,False
+644,081305397077,Wawan Hidayat,Prabayar,Kartu As,2023-07-13,True
+645,083153946766,Rizky Firmansyah,Pascabayar,simPATI,2022-09-28,False
+646,085170368605,Qori Purnomo,Prabayar,simPATI,2022-04-17,True
+647,082190912030,Nur Santoso,Prabayar,Loop,2022-10-21,True
+648,081109860275,Eka Wibowo,Prabayar,Loop,2024-10-06,True
+649,081289655834,Sari Andriani,Pascabayar,Halo,2023-08-03,False
+650,085224860704,Tari Pratama,Prabayar,simPATI,2024-07-08,False
+651,082116715605,Rizky Handoko,Prabayar,Loop,2024-12-14,True
+652,081257905719,Qori Setiawan,Pascabayar,Halo,2022-06-13,True
+653,083174876805,Fajar Surya,Pascabayar,simPATI,,True
+654,082367333297,Sari Firmansyah,Pascabayar,Kartu As,2023-03-12,False
+655,082227739238,Edi Hidayat,Prabayar,simPATI,2023-11-24,False
+656,082147199829,Luki Rahayu,Pascabayar,Kartu As,2022-01-19,True
+657,081238310064,Fira Firmansyah,Prabayar,Halo,2023-05-19,False
+658,085247070385,Andi Wibowo,Pascabayar,simPATI,2022-04-18,True
+659,081167582676,Yudi Lestari,PRABAYAR,Halo,2022-10-10,False
+660,085214974597,Sandi Lestari,Pascabayar,Loop,2023-03-04,True
+661,081199550493,Zaki Susanto,Prabayar,Loop,2022-10-20,False
+662,081259485340,Bambang Kusuma,Prabayar,Loop,2022-01-09,False
+663,085171888223,Sandi Handoko,Pascabayar,Halo,2024-07-11,False
+664,082279984605,Qori Wibowo,Pascabayar,Kartu As,2024-11-21,False
+665,081180926166,Sandi Pratama,Pascabayar,Halo,2022-09-29,False
+666,085364000687,Eka Lestari,Pascabayar,Halo,2023-11-23,False
+667,081289974023,Maya Lestari,Prabayar,simPATI,2023-02-17,False
+668,082223860205,Galih Nugroho,Pascabayar,simPATI,2022-04-10,True
+669,085324528413,Yudi_Wahyudi,Pascabayar,Halo,2024-01-13,True
+670,083140598026,Yudi Putra,Prabayar,Loop,2022-01-03,True
+671,085334203197,Galih Santoso,Prabayar,Halo,2024-07-30,False
+672,085129586841,Budi Saputra,Pascabayar,Halo,2024-05-10,False
+673,082117306629,Luki Saputra,Prabayar,Loop,2023-03-14,True
+674,085190623272,Tari Firmansyah,Prabayar,Kartu As,,True
+675,081184779541,Bambang Handoko,Prabayar,Halo,2024-06-30,False
+676,082258962683,Cindy Wahyudi,Prabayar,Halo,2024-11-01,True
+677,082318812988,Fira Santoso,Prabayar,Halo,2024-03-03,True
+678,083123729826,Dewi Handoko,Pascabayar,Halo,2023-04-19,False
+679,083168335570,Wawan Saputra,Prabayar,simPATI,2024-09-24,True
+680,085399384440,Fitri Saputra,Pascabayar,simPATI,2023-09-30,False
+681,082168715689,Nanda Wijaya,Pascabayar,Kartu As,2022-06-02,False
+682,082246794036,Umar Saputra,Prabayar,Halo,2024-05-25,True
+683,081392731868,Qori Handoko,Pascabayar,Kartu As,2023-03-03,True
+684,085154839660,Qori Kusuma,Pascabayar,Loop,2024-08-13,False
+685,083116170502,Yudi Lestari,Pascabayar,Loop,2022-12-06,True
+686,082177402928,Joko Andriani,Prabayar,Loop,2024-04-09,False
+687,085136677196,Eka_Pratama,Prabayar,simPATI,2024-04-30,False
+688,083198013768,Hendra Lestari,Pascabayar,Loop,2023-03-29,True
+689,081333517465,Sari Firmansyah,Prabayar,Kartu As,2024-06-08,True
+690,082359227764,Rini Firmansyah,Pascabayar,Loop,2022-07-09,True
+691,085272288390,Joko Andriani,Pascabayar,simPATI,2023-09-08,False
+692,082297887953,Fitri Pratama,Pascabayar,Halo,,True
+693,085331439151,Ahmad Andriani,Tidak Diketahui,simPATI,2022-05-13,False
+694,082225706802,Nanda Susanto,Prabayar,KARTU AS,2024-05-26,False
+695,082305224114,Umar Surya,Pascabayar,simPATI,2022-11-11,False
+696,081322400539,Ayu Rahayu,Prabayar,simPATI,2022-09-25,True
+697,081233252861,Hendra Wahyudi,Pascabayar,Kartu As,2023-03-16,True
+698,081349866342,Umar Santoso,Pascabayar,Kartu As,2022-04-22,True
+699,082361526655,Xena Putra,Prabayar,Halo,2022-05-16,True
+700,082324746653,Sandi Wahyudi,Prabayar,Loop,2023-11-24,False
+701,083124157127,Rini Purnomo,Pascabayar,Halo,2024-05-06,False
+702,085282497939,Tari Pratama,Prabayar,Kartu As,2022-06-08,False
+703,085207201489,Xena Rahayu,Prabayar,Kartu As,2024-05-17,False
+704,085362542926,Edi Nugroho,Prabayar,Loop!!,2023-08-31,False
+705,085264971967,Nur Hidayat,Prabayar,simPATI,2022-02-22,True
+706,083149013334,Ika Wahyudi,Prabayar,simPATI,2023-07-11,False
+707,085279301481,Dewi Kusuma,Prabayar,Loop,2022-08-01,True
+708,085216801990,Cindy Susanto,Pascabayar,Kartu As,2023-05-20,False
+709,081279138601,Xena Wahyudi,Pascabayar,simPATI,2023-10-26,True
+710,081128814112,Maya Handoko,Prabayar,Halo,2024-12-28,True
+711,081238107491,Fajar Firmansyah,Prabayar,simPATI,2024-02-16,False
+712,085226168455,Tari Firmansyah,Prabayar,simPATI,2022-12-09,False
+713,082366948993,Ayu Saputra,Pascabayar,Halo,2022-04-30,False
+714,081272662565,Eka Handoko,Prabayar,Loop,2022-02-23,False
+715,082208710066,Tari Hidayat,Tidak Diketahui,Halo,2022-05-01,True
+716,082128222824,Dodi Rahayu,Pascabayar,Loop,,False
+717,082311350535,Nur Putra,Prabayar,simPATI,2024-06-26,False
+718,085383028010,Andi Firmansyah,Prabayar,Kartu As,2023-09-07,False
+719,085274280218,Xena Andriani,Prabayar,simPATI,2023-04-03,True
+720,082169905585,Vina Lestari,Prabayar,simPATI,2023-12-07,False
+721,081389860610,Maya Maulana,Pascabayar,Halo,2024-03-06,False
+722,082298025308,Cindy Kusuma,Pascabayar,Halo,2023-07-29,True
+723,081342348004,Eka Putra,Prabayar,simPATI,2022-06-13,True
+724,085396024257,Rini Hidayat,Pascabayar,Kartu As,2022-05-06,True
+725,085230402966,Bagas Saputra,Prabayar,Kartu As,2023-01-12,False
+726,082339266937,Eka Pratama,Prabayar,Kartu As,2022-01-11,False
+727,085219019333,Citra Wijaya,Prabayar,Loop,2024-02-05,True
+728,081285594079,Kartika Purnomo,Prabayar,Halo,2022-10-20,True
+729,085247437019,Luki Surya,Prabayar,Halo,2023-08-29,True
+730,081220928157,Xena Susanto,Prabayar,Halo,2022-04-23,True
+731,082153223718,Xena Susanto,Pascabayar,Kartu As,2023-12-30,False
+732,081103753989,Fajar Santoso,Pascabayar,Halo,2022-11-01,True
+733,085137659153,Ahmad Purnomo,Prabayar,Kartu As,2024-12-08,False
+734,081227245533,Hendra Maulana,Pascabayar,Loop,2024-09-28,False
+735,082310462506,Dian Nugroho,Prabayar,Halo,2022-09-23,False
+736,082309793442,Fira Putra,Pascabayar,Kartu As,2022-05-30,False
+737,082379725184,Budi Nugroho,Prabayar,Kartu As,2022-04-17,False
+738,082316767063,Dian Lestari,Pascabayar,Kartu As,,False
+739,082226483336,Luki Saputra,Pascabayar,simPATI,2024-07-13,False
+740,085292085649,Fira Nugroho,Prabayar,Loop,2022-04-17,True
+741,085217580803,Okta Nugroho,Pascabayar,Loop,2024-12-08,False
+742,082153814837,Okta Kusuma,Prabayar,Loop,2023-09-28,False
+743,083102716988,Andi Kusuma,Pascabayar,Halo,2023-02-23,False
+744,082132617050,Edi Saputra,Prabayar,Halo,2023-11-13,False
+745,085124266217,Edi Wahyudi,Pascabayar,Halo,2024-09-14,False
+746,082127276698,Zaki Surya,Prabayar,Loop,2023-03-31,True
+747,081189720738,Wawan Setiawan,Prabayar,Loop,2022-12-08,False
+748,081190071210,Rini Setiawan,Pascabayar,simPATI,2022-10-17,False
+749,083161997165,Xena Pratama,Prabayar,Halo,2024-06-08,False
+750,081324265379,Galih Maulana,Pascabayar,simPATI,2023-02-15,False
+751,082379115010,Tidak Diketahui,Prabayar,Kartu As,2022-05-22,True
+752,082154883571,Cindy Setiawan,Pascabayar,Halo,2023-01-18,False
+753,081272665282,Sari Setiawan,Prabayar,Kartu As,,True
+754,082260519085,Dewi Kusuma,Prabayar,Kartu As,2023-07-28,False
+755,082101000908,Tidak Diketahui,Pascabayar,simPATI,2023-04-26,True
+756,082389290930,Kartika Kusuma,Pascabayar,simPATI,2023-06-22,False
+757,081259474705,Umar Saputra,Pascabayar,Kartu As!!,2023-03-28,False
+758,081289142693,Luki Rahayu,Prabayar,Halo,2024-08-29,False
+759,085136368850,Bagas Saputra,Pascabayar,Kartu As,2022-06-29,False
+760,085361652289,Dian Setiawan,Prabayar,Halo,2022-01-02,True
+761,081183858050,Rini Nugroho,Prabayar,Loop,2022-05-29,False
+762,082318871148,Putri Wibowo,Prabayar,Kartu As,2024-05-27,False
+763,082102930112,Wawan Wijaya,Prabayar,simPATI,2023-11-28,False
+764,,Fajar Susanto,Prabayar,Halo,2024-10-17,True
+765,082371446956,Luki Santoso,Prabayar,Loop,2024-10-12,False
+766,085258348348,Cindy Andriani,Prabayar,Kartu As,2023-04-14,True
+767,085358708943,Sari Handoko,Prabayar,Loop,2022-11-22,True
+768,082304505092,Tidak Diketahui,Pascabayar,Kartu As,2024-12-25,False
+769,082345038016,Citra Wahyudi,Prabayar,Loop,2022-10-10,True
+770,082112794337,Gita Surya,Prabayar,simPATI,2023-11-09,False
+771,085166251085,Joko Rahayu,Pascabayar,Halo,2024-10-12,False
+772,081217455537,Hendra Surya,Prabayar,Halo,2022-03-06,True
+773,085226412608,Xena Maulana,PRABAYAR,Kartu As,2023-06-12,False
+774,081267045059,Fira Surya,Pascabayar,Kartu As,2022-10-20,True
+775,082285142025,Ayu Wijaya,Prabayar,Kartu As,2023-05-12,False
+776,083111549044,Eka Firmansyah,Prabayar,Kartu As,,False
+777,081215062917,Xena Purnomo,Pascabayar,simPATI,2022-09-17,False
+778,082192219836,Zaki Purnomo,Pascabayar,Kartu As,2022-06-04,False
+779,083115304450,Putri Firmansyah,Prabayar,simPATI,2022-01-22,True
+780,082386760304,Dodi Firmansyah,Pascabayar,simPATI,2022-01-18,False
+781,081238272105,Ahmad Wijaya,Prabayar,Kartu As,,False
+782,081263603891,Rini Saputra,Pascabayar,Kartu As,2024-09-07,True
+783,085307163485,Ahmad Wijaya,Tidak Diketahui,Loop,2022-02-26,True
+784,082256972965,Maya Maulana,Prabayar,simPATI,2023-11-25,False
+785,082361266783,Ika Wahyudi,Pascabayar,simPATI,2022-02-21,False
+786,081244662763,Luki Wibowo,Pascabayar,Loop,2023-03-24,False
+787,085247046568,Tari Setiawan,Prabayar,Halo,2024-03-04,False
+788,083122912706,Fitri Maulana,Pascabayar,simPATI,2023-11-07,False
+789,082101817960,Nur Saputra,Pascabayar,Loop,2024-09-10,True
+790,085311486565,Bagas Pratama,Prabayar,Loop,2024-11-24,False
+791,085355726169,Dodi Firmansyah,Prabayar,simPATI,2023-09-17,True
+792,085316753216,Gita Santoso,Prabayar,Loop,2023-03-31,True
+793,085329545858,Dewi Putra,Prabayar,Kartu As,2023-04-06,True
+794,083125814762,Kartika Kusuma,Prabayar,Kartu As,2022-08-06,False
+795,082331563093,Cindy Lestari,Pascabayar,Halo,2022-01-18,True
+796,081189921773,Bagas Lestari,Prabayar,Halo,,True
+797,081124222419,Hendra Nugroho,Pascabayar,Kartu As,,False
+798,081348420243,Luki Lestari,Prabayar,Halo,2024-01-24,False
+799,081247539891,Dian Nugroho,Pascabayar,simPATI,2023-01-30,True
+800,082156594299,Rizky Santoso,Pascabayar,Halo,2022-12-26,False
+801,083141183909,Rini Kusuma,Prabayar,Kartu As,2023-04-18,False
+802,083133437518,Ayu Andriani,Pascabayar,Kartu As,2024-02-20,False
+803,085343509528,Okta Santoso,Pascabayar,Kartu As,2024-12-07,False
+804,083117650471,Gita Surya,Pascabayar,Halo,2024-12-07,False
+805,085166798994,Sandi Wibowo,Pascabayar,Loop,2024-07-24,False
+806,081256756650,Joko Handoko,Prabayar,Loop,2023-11-25,True
+807,085298504505,Qori Firmansyah,Pascabayar,Loop,2024-04-17,False
+808,081357140250,Bambang Wahyudi,Prabayar,Loop,2023-05-08,False
+809,082168063585,Luki Wahyudi,Pascabayar,Loop,2023-03-29,True
+810,081377586703,Zaki Maulana,Prabayar,Kartu As,2024-03-04,True
+811,081281233576,Ika Putra,Prabayar,Loop,2022-07-01,False
+812,085236785089,Tari Rahayu,Pascabayar,Kartu As,2024-09-27,False
+813,085340376768,Fajar Handoko,Pascabayar,Loop,2024-08-31,True
+814,082109900094,Xena Setiawan,Prabayar,Loop,2022-03-10,False
+815,082323266000,Qori Putra,Prabayar,Loop,2023-06-17,True
+816,082311815837,Edi Wibowo,Pascabayar,Halo,2023-07-21,False
+817,085282905256,TARI WIBOWO,Prabayar,simPATI,2023-12-04,False
+818,082273986221,Sari Surya,Pascabayar,Halo,2023-06-03,True
+819,,Zaki Surya,Prabayar,Halo,2023-06-22,True
+820,082277413135,Tari Susanto,Prabayar,Halo,2022-06-06,False
+821,082321789559,Ayu Andriani,Prabayar,Halo,2022-04-29,True
+822,081338319348,Putri Firmansyah,Prabayar,Loop,2022-07-07,True
+823,081319597309,Eka Nugroho,Pascabayar,Halo,2022-07-28,False
+824,081253030440,Fajar Wijaya,Pascabayar,Loop,2024-07-10,False
+825,082218299126,Maya Surya,PRABAYAR,Halo,2023-07-01,True
+826,081342168268,Ayu Rahayu,Pascabayar,Halo,2022-09-15,True
+827,081159325722,Fitri Santoso,Pascabayar,Loop,2024-07-22,False
+828,083151452058,Nur Rahayu,Prabayar,simPATI,2022-02-17,True
+829,085347695090,Putri Nugroho,Pascabayar,Loop,2023-06-11,False
+830,082188788876,Umar Rahayu,Prabayar,simPATI,2023-12-13,True
+831,082186047947,Fitri Pratama,Pascabayar,Loop,2022-06-13,True
+832,083144191479,Cindy Hidayat,Pascabayar,Halo,2022-04-08,True
+833,085308488686,Bagas Wibowo,Prabayar,Kartu As,2023-11-11,True
+834,082330688568,Citra Putra,Pascabayar,Halo,2023-09-03,True
+835,083175213531,Dian Surya,Prabayar,Halo,2024-09-05,True
+836,085162675119,Rizky Nugroho,Pascabayar,Halo,2024-10-06,True
+837,081193582016,Ika Santoso,Prabayar,Kartu As,2023-01-28,False
+838,085366809846,Fira Hidayat,Pascabayar,Loop,2022-04-11,False
+839,085166715544,Ika Maulana,Prabayar,Loop,2024-05-03,False
+840,082336499119,Bagas Wijaya,Prabayar,simPATI,2022-11-10,True
+841,082107755821,Gita Andriani,Pascabayar,Tidak Diketahui,2022-11-22,True
+842,083191981775,Okta Kusuma,Pascabayar,Kartu As,2024-01-29,True
+843,082397477656,Ika_Saputra,Pascabayar,Loop,2023-10-16,False
+844,083122094907,Okta Susanto,Prabayar,simPATI,2024-04-09,True
+845,082149431487,Wawan Handoko,Pascabayar,Loop,2022-10-01,True
+846,,Okta Maulana,Pascabayar,Halo,2024-02-03,False
+847,081236233470,Ayu Lestari,Pascabayar,Halo,2023-09-08,False
+848,085155950837,Luki Pratama!!,Pascabayar,Loop,2023-08-04,True
+849,085394907869,Andi Wibowo,Prabayar,Kartu As,2022-12-31,False
+850,082167355896,Ika Maulana,Pascabayar,Kartu As,2022-04-04,False
+851,081197427493,Kartika Setiawan,Pascabayar,simPATI,2024-06-04,False
+852,085335658260,Budi Wijaya,Pascabayar,Loop,2024-11-17,True
+853,085291122321,Ayu Wibowo,Prabayar,Kartu As,2023-06-25,False
+854,082246532554,Nanda Handoko,Pascabayar,Halo,2023-08-10,False
+855,081293768418,Cindy Andriani,PRABAYAR,Kartu As,2023-07-27,True
+856,085136030876,Vina Hidayat,Pascabayar,simPATI,2023-08-20,False
+857,085367162172,Qori Santoso,Pascabayar,Kartu As,2022-03-27,False
+858,082296741991,Okta Wibowo,Prabayar,simPATI,2024-04-01,False
+859,082319701815,Maya Rahayu,Prabayar,Loop,2022-07-24,False
+860,085202216908,Okta Hidayat,Prabayar,Kartu As,2024-11-10,True
+861,082373517454,Budi Susanto,Prabayar,simPATI,2024-02-12,True
+862,085399035971,Zaki Wahyudi,Prabayar,simPATI,2024-10-06,False
+863,085248389533,Okta Kusuma,Pascabayar,Tidak Diketahui,2024-07-06,True
+864,082117303324,Edi Handoko,Pascabayar,Tidak Diketahui,2024-05-10,True
+865,085331815605,Edi Nugroho,Pascabayar,Loop,2023-08-16,True
+866,085247545657,Dian Purnomo,Prabayar,simPATI,2022-11-03,True
+867,082360669926,Rini Saputra,Prabayar,Halo,2022-05-19,True
+868,083162637792,Gita Wahyudi,Prabayar,Halo,,True
+869,082102399344,Hendra Setiawan,Pascabayar,Tidak Diketahui,2024-02-16,False
+870,085165294128,Okta Handoko,Pascabayar,Loop,2023-12-05,False
+871,081142554280,Edi Saputra,Prabayar,Halo,2023-10-26,True
+872,085202039221,VINA ANDRIANI,Pascabayar,Kartu As,2023-05-26,True
+873,085328731424,Dian Saputra,Pascabayar,simPATI,2024-01-12,False
+874,082310287451,Budi Santoso,Prabayar,Loop,2022-11-04,True
+875,081204662750,Galih Rahayu,Pascabayar,Halo,2022-07-20,True
+876,081195872383,Fajar Setiawan,Pascabayar,Kartu As,2024-03-25,False
+877,081297015019,Okta Saputra,Prabayar,Kartu As,2024-06-04,False
+878,082129704937,Bagas Putra,Pascabayar,simPATI,2023-11-29,False
+879,081175741424,Fira Hidayat,Prabayar,simPATI,2024-08-15,False
+880,085372443435,Ika Susanto,Pascabayar,Halo,2023-09-16,True
+881,083190348042,Andi Hidayat,Tidak Diketahui,simPATI,2023-08-24,False
+882,085222549203,Dodi Wibowo,Pascabayar,simPATI,2024-04-24,False
+883,081326414756,Nur Handoko,Prabayar,Loop,2022-01-27,True
+884,085267715390,Nanda Firmansyah,Tidak Diketahui,Kartu As,2022-12-12,False
+885,082276144278,Dewi Susanto,Prabayar,Kartu As,2024-09-28,False
+886,085354939343,Dewi Susanto,Prabayar,Kartu As,2024-03-30,False
+887,082130734533,Zaki Pratama,Prabayar,Loop,2022-04-14,False
+888,081151602325,Hendra Maulana,Pascabayar,Loop,2022-07-16,False
+889,085241199255,Maya Surya,Pascabayar,simPATI,2022-06-29,True
+890,082294197157,Putri Putra,Prabayar,Kartu As,,True
+891,085156352007,Bagas Kusuma,Pascabayar,Halo,2024-06-11,False
+892,085109010146,Umar Santoso,Prabayar,Loop,2022-07-16,False
+893,081268785185,Cindy Saputra,Pascabayar,Kartu As,,False
+894,085114723735,Dodi Santoso,Prabayar,Halo,2024-05-10,True
+895,081245498367,Dian Maulana,Pascabayar,Halo,2022-06-12,False
+896,082256059563,Fitri Susanto,Pascabayar,simPATI,2023-09-14,True
+897,085377303167,Gita Putra,Pascabayar,simPATI,2024-09-12,False
+898,082300549080,Luki Surya,Pascabayar,Halo,2023-03-04,True
+899,081109143529,Hendra_Wijaya,Pascabayar,Halo,2023-09-22,True
+900,081325275600,Fira Wibowo,Prabayar,Halo,2022-12-06,True
+901,083104182805,Qori Saputra,Prabayar,Loop,2022-05-23,True
+902,,Fajar Susanto,Prabayar,Halo,2023-09-13,False
+903,081131180266,Maya Maulana,PASCABAYAR,Halo,2022-09-07,True
+904,083192569247,Nur Pratama,Prabayar,simPATI,2024-04-18,True
+905,082313251790,Tidak Diketahui,Pascabayar,Halo,2023-09-27,False
+906,082114564572,Rizky Santoso,Prabayar,Kartu As,2022-11-09,True
+907,085170933913,Edi Firmansyah,Pascabayar,Halo,2024-03-16,True
+908,081157631010,Rizky Andriani,Prabayar,Halo,2024-12-29,True
+909,083148698948,Sandi Handoko,PRABAYAR,Tidak Diketahui,2023-06-01,False
+910,082394933078,Hendra Purnomo,Pascabayar,Loop,2022-07-31,True
+911,083167433384,Putri Surya,Prabayar,Kartu As,2024-04-13,True
+912,081366536197,Edi Wahyudi,Pascabayar,Kartu As,2024-07-23,False
+913,085165392768,Cindy Maulana,Prabayar,simPATI,2024-07-17,False
+914,082358173579,Umar Santoso,Pascabayar,Kartu As,2022-09-14,True
+915,083170145570,Edi Andriani,Prabayar,Halo,2023-04-18,True
+916,081192600011,Dewi Surya,Pascabayar,Loop,2022-04-24,True
+917,081108823846,Fitri Putra,Pascabayar,Kartu As,2022-04-15,True
+918,085255619221,Wawan Putra,Pascabayar,Halo,2024-12-22,False
+919,085241693683,Citra Setiawan,Pascabayar,Kartu As,2023-10-11,True
+920,081382671269,Eka Surya,Prabayar,Halo,2023-05-08,True
+921,085168111433,Ika Susanto,Pascabayar,Loop,2022-04-05,False
+922,085387902591,Rini Hidayat,Prabayar,Halo,2022-11-08,True
+923,081129559997,Rizky Andriani,Prabayar,Halo,2024-08-17,True
+924,085341117367,Citra Lestari,Pascabayar,Kartu As,2022-01-25,False
+925,085105630829,Sari Santoso,Prabayar,Kartu As,2022-12-07,False
+926,,Fajar Kusuma,Pascabayar,simPATI,2023-01-12,False
+927,082312955510,GITA WIBOWO,Pascabayar,Kartu As,2022-02-07,True
+928,082150283034,Bagas Rahayu,Prabayar,Kartu As,2022-10-19,True
+929,,Sandi Putra,Prabayar,Halo,,True
+930,081115176429,Okta Andriani,Prabayar,simPATI,2024-04-25,True
+931,082115255232,Tari Pratama,Prabayar,Loop,2022-09-30,False
+932,085225395011,Maya Purnomo,Pascabayar,Kartu As,2022-08-26,True
+933,081145880971,Sari Putra,Prabayar,Kartu As,2024-06-03,True
+934,081305596757,Qori Firmansyah,Pascabayar,Kartu_As,2024-10-12,False
+935,081216089589,Joko Surya,Prabayar,Kartu As,2024-08-09,False
+936,082276128989,Zaki Setiawan,Prabayar,Halo,2023-04-11,False
+937,081133878852,Okta Wibowo,Pascabayar,Loop,2024-11-17,False
+938,081173794999,Dian Santoso,Pascabayar,simPATI,2023-09-01,False
+939,082343475916,Bagas Wibowo,Prabayar,simPATI,2022-03-05,False
+940,085137568167,Nanda Handoko,Pascabayar,simPATI,2024-12-13,False
+941,081235007883,Wawan Wibowo,Pascabayar,Kartu As,2024-03-05,True
+942,082112653273,Andi Hidayat,Pascabayar,simPATI,2023-10-05,False
+943,083150935555,Luki Susanto,Pascabayar,Kartu As,2024-07-13,True
+944,081221893912,Xena Wibowo!!,Pascabayar,Kartu As,2024-09-05,False
+945,085244685304,Sari Maulana,Prabayar,Loop,2024-01-30,True
+946,082127639904,Maya Setiawan,Pascabayar,Kartu As,2024-04-21,True
+947,081197550617,Eka Rahayu,Prabayar,Kartu As,2022-03-18,True
+948,085297216218,Andi Handoko,Prabayar,Halo,2023-02-01,True
+949,081326008228,Xena Kusuma,Prabayar,Loop,2023-04-23,False
+950,085232280126,Citra Wijaya,Pascabayar,Halo,2022-04-19,False
+951,085324525737,Umar Lestari,Prabayar,Loop,2024-08-11,True
+952,083188972842,Fitri Rahayu,Prabayar,simPATI,2024-03-27,False
+953,085318605668,Okta Setiawan,Pascabayar,Loop,2024-11-21,False
+954,081385354160,Eka Lestari,Tidak Diketahui,simPATI,2022-06-23,False
+955,081307710740,Ahmad Maulana,Pascabayar,Kartu As,2023-08-07,True
+956,,Rizky Kusuma,Pascabayar,Kartu As,,False
+957,083197475396,Xena Maulana,Prabayar,Loop,2023-10-21,False
+958,085340513379,Putri Setiawan,Pascabayar,Tidak Diketahui,2023-04-16,True
+959,082290584968,Fitri Handoko,Prabayar,Halo,2024-11-08,False
+960,083199863245,Okta Santoso,Prabayar,Loop,2023-05-14,True
+961,083185932135,Umar Saputra,Prabayar,simPATI,2024-04-23,False
+962,082397205548,Joko Rahayu,Prabayar,simPATI,2022-12-02,False
+963,085346042937,Bambang Lestari,Prabayar,Halo,,True
+964,085276988979,Galih Hidayat,Pascabayar,Tidak Diketahui,2024-12-10,False
+965,085205962751,Edi Setiawan,Prabayar,Loop,2023-03-04,False
+966,081215686223,Putri Susanto!!,Pascabayar,Kartu As,2022-05-08,False
+967,082103727186,Maya Putra,Prabayar,simPATI,2022-11-28,False
+968,081166154598,Yudi Andriani,Pascabayar,Kartu As,2023-11-10,True
+969,085166905946,Dodi Saputra,Pascabayar,Kartu As,2024-12-13,False
+970,085171232036,Galih Andriani,Pascabayar,Loop,2024-02-21,False
+971,081187783471,Ika Rahayu,Pascabayar,Loop,2022-01-15,False
+972,085300453585,Bagas Handoko,Prabayar,Halo,2024-08-20,True
+973,082354689397,Citra Surya,Prabayar,Loop,2024-07-27,False
+974,083104484673,Okta Wibowo,Prabayar,Loop,2023-03-01,True
+975,082194599426,Umar Hidayat,Prabayar,simPATI,2023-07-17,True
+976,085316283356,Ika Saputra,Prabayar,Kartu As,2022-04-20,True
+977,085372871565,Sari Rahayu,Pascabayar,Loop,2024-06-02,True
+978,081391714854,Ika Wibowo,Prabayar,Loop,2022-06-02,False
+979,081265119214,Zaki Hidayat,Prabayar,Kartu As,2024-02-06,True
+980,085124035321,Tidak Diketahui,Prabayar,Halo,2022-12-12,True
+981,081280525795,Fitri Hidayat,Pascabayar,Kartu As,2022-05-06,True
+982,081234348571,Fira Kusuma,Pascabayar,Kartu As,2023-02-18,True
+983,081238130149,Dodi Firmansyah,Prabayar,Loop,2023-09-18,True
+984,081182133568,Dian Wahyudi,Pascabayar,simPATI,2023-02-28,False
+985,083118740501,Dian Kusuma,Pascabayar,Halo,2023-05-05,False
+986,082325723163,Yudi Handoko,Prabayar,simPATI,2022-08-29,True
+987,085230667005,Dian Firmansyah,Prabayar,Kartu As,,False
+988,081197140863,Ayu Santoso,Pascabayar,Halo,2023-05-27,True
+989,082175909722,Galih Hidayat,Pascabayar,Loop,2024-12-10,True
+990,081134823678,Dian Susanto,Prabayar,simPATI,2023-02-27,False
+991,085248674163,Maya Susanto,Pascabayar,Halo,2024-10-02,True
+992,081244157281,Zaki Pratama,Pascabayar,simPATI,2023-10-01,True
+993,082355465426,Sandi Santoso,Prabayar,Loop,2024-10-22,False
+994,082395660030,Nanda Lestari,Pascabayar,Halo,2022-06-26,False
+995,085283850957,Vina Setiawan,Prabayar,Loop,2022-02-13,False
+996,082284843770,Sari Putra,Pascabayar,Kartu As,2022-02-01,False
+997,082221756275,Dian Surya,Prabayar,Loop,2022-12-12,False
+998,082151638326,Edi Hidayat,Prabayar,Halo,2023-07-25,False
+999,085213049484,Okta Handoko,Prabayar,Kartu As,2022-07-04,False
+1000,085175679813,Xena Hidayat,Pascabayar,simPATI,2022-04-09,False

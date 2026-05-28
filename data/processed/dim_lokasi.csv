@@ -1,0 +1,99 @@
+id_lokasi,site_id,kelurahan,kecamatan,kabupaten_kota,provinsi,regional
+1,SITE-0001,Menteng,Menteng,Jakarta Pusat,DKI Jakarta,Regional Jawa
+2,SITE-0002,Gambir,Gambir,Jakarta Pusat,DKI Jakarta,Regional Jawa
+3,SITE-0003,Tanah Abang,Tanah Abang,Jakarta Pusat,DKI Jakarta,Regional Jawa
+4,SITE-0004,Kemayoran,Kemayoran,Jakarta Pusat,DKI Jakarta,Regional Jawa
+5,SITE-0005,Senen,Senen,Jakarta Pusat,DKI Jakarta,Regional Jawa
+6,SITE-0006,Koja,Koja,Jakarta Utara,DKI Jakarta,Regional Jawa
+7,SITE-0007,Tanjung Priok,Tanjung Priok,Jakarta Utara,DKI Jakarta,Regional Jawa
+8,SITE-0008,Penjaringan,Penjaringan,Jakarta Utara,DKI Jakarta,Regional Jawa
+9,SITE-0009,Cilincing,Cilincing,Jakarta Utara,DKI Jakarta,Regional Jawa
+10,SITE-0010,Pademangan,Pademangan,Jakarta Utara,DKI Jakarta,Regional Jawa
+11,SITE-0011,Kebon Jeruk,Kebon Jeruk,Jakarta Barat,DKI Jakarta,Regional Jawa
+12,SITE-0012,Cengkareng,Cengkareng,Jakarta_Barat,DKI Jakarta,REGIONAL JAWA
+13,SITE-0013,Grogol Petamburan,Grogol Petamburan,Jakarta Barat,DKI Jakarta,Regional Jawa
+14,SITE-0014,Tambora,Tambora,Jakarta Barat,DKI Jakarta,Regional Jawa
+15,SITE-0015,Palmerah,Palmerah,Jakarta Barat,DKI Jakarta,Regional Jawa
+16,SITE-0016,Jagakarsa,Jagakarsa,Jakarta Selatan,DKI Jakarta,Regional Jawa
+17,SITE-0017,Pasar Minggu,Pasar Minggu,Jakarta Selatan,DKI Jakarta,Regional Jawa
+18,SITE-0018,Kebayoran Baru,Kebayoran Baru,Jakarta Selatan,DKI Jakarta,Regional Jawa
+19,SITE-0019,Tebet,Tebet,Jakarta Selatan,DKI Jakarta!!,Regional Jawa
+20,SITE-0020,Setiabudi,Setiabudi,Jakarta Selatan,DKI Jakarta,Regional Jawa
+21,SITE-0021,Matraman,Matraman,Jakarta Timur,DKI Jakarta,Regional Jawa
+22,SITE-0022,Cakung,Cakung,Jakarta Timur,DKI Jakarta,Regional Jawa
+23,SITE-0023,Jatinegara,Jatinegara,Jakarta Timur,DKI Jakarta,Regional Jawa
+24,SITE-0024,Kramat Jati,Kramat Jati,Jakarta Timur,DKI Jakarta,Regional Jawa
+25,SITE-0025,Duren Sawit,Duren Sawit,Jakarta Timur,DKI Jakarta,Regional Jawa
+26,SITE-0026,Tidak Diketahui,Coblong,Kota Bandung,Jawa Barat,Regional Jawa
+27,SITE-0027,Cicendo,Cicendo,Kota Bandung,Jawa Barat,Regional Jawa
+28,SITE-0028,Andir,Andir,Kota Bandung,Jawa Barat,Regional Jawa
+29,SITE-0029,Bojongloa Kaler,Bojongloa Kaler,Kota Bandung,Jawa Barat,Regional Jawa
+30,SITE-0030,Antapani,Antapani,Kota Bandung,Jawa Barat,Regional Jawa
+31,SITE-0031,Buah Batu,Buah Batu,Kota Bandung,Jawa Barat,Regional Jawa
+32,SITE-0032,Cibeunying Kaler,Cibeunying Kaler,Kota Bandung,Jawa Barat,Regional Jawa
+33,SITE-0033,Bogor Tengah,Bogor Tengah,Kota Bogor,Jawa Barat,Regional Jawa
+34,SITE-0034,Bogor Selatan,Bogor Selatan,Kota Bogor,Jawa Barat,Regional Jawa
+35,SITE-0035,Tanah Sareal,Tanah Sareal,Kota Bogor,Jawa Barat,Regional Jawa
+36,SITE-0036,Depok,Pancoran Mas,Kota Depok,Jawa Barat,Regional Jawa
+37,SITE-0037,Beji,Beji,Kota Depok,Jawa_Barat,Regional Jawa
+38,SITE-0038,Cimanggis,Cimanggis,Kota Depok,Jawa Barat,Regional Jawa
+39,SITE-0039,Bekasi Barat,Bekasi Barat,Kota Bekasi,Jawa Barat,Regional Jawa
+40,SITE-0040,Bekasi Timur,Bekasi Timur,Kota Bekasi,Jawa Barat,Regional Jawa
+41,SITE-0041,Cikarang Barat,Cikarang Barat,Kab. Bekasi,Jawa Barat,Regional Jawa
+42,SITE-0042,Banyumanik,Banyumanik,Kota Semarang,Jawa Tengah,Regional Jawa
+43,SITE-0043,Gajahmungkur,Gajahmungkur,Kota Semarang,Jawa Tengah,Regional Jawa
+44,SITE-0044,Semarang Tengah,Semarang Tengah,Kota Semarang,Jawa Tengah,Regional Jawa
+45,SITE-0045,Tembalang,Tembalang,Kota Semarang,Jawa Tengah,Regional Jawa
+46,SITE-0046,Pedurungan,Pedurungan,Kota Semarang,Jawa Tengah,Regional Jawa
+47,SITE-0047,Gondokusuman,Gondokusuman,Kota Yogyakarta,DI Yogyakarta,Regional Jawa
+48,SITE-0048,Umbulharjo,Umbulharjo,Kota Yogyakarta,DI Yogyakarta,Regional Jawa
+49,SITE-0049,Kotagede,Kotagede,Kota Yogyakarta,DI Yogyakarta,Regional Jawa
+50,SITE-0050,Sleman,Depok,Kab. Sleman,DI Yogyakarta,Regional Jawa
+51,SITE-0051,Gubeng,Gubeng,Kota Surabaya,Jawa Timur,Regional Jawa
+52,SITE-0052,Wonokromo,Wonokromo,Kota Surabaya,Jawa Timur,Regional Jawa
+53,SITE-0053,Rungkut,Rungkut,Kota Surabaya,Jawa Timur,Regional Jawa
+54,SITE-0054,Sukolilo,Sukolilo,Kota Surabaya,Jawa Timur,Regional Jawa
+55,SITE-0055,Tambaksari,Tambaksari,Kota Surabaya,Jawa Timur,Regional Jawa
+56,SITE-0056,Lowokwaru,Lowokwaru,Kota Malang,Jawa Timur,Regional Jawa
+57,SITE-0057,Klojen,Klojen,Kota Malang,Jawa Timur,REGIONAL JAWA
+58,SITE-0058,Blimbing,Tidak Diketahui,Kota Malang,Jawa Timur,Regional Jawa
+59,SITE-0059,Ilir Barat I,Ilir Barat I,Kota Palembang,Sumatera Selatan,Regional Sumatera
+60,SITE-0060,Ilir Timur I,Ilir Timur I,Kota Palembang,Sumatera Selatan,Regional Sumatera
+61,SITE-0061,Seberang Ulu I,Seberang Ulu I,Kota Palembang,Sumatera Selatan,Regional Sumatera
+62,SITE-0062,Medan Baru,Medan Baru,Kota Medan,Sumatera Utara,Regional Sumatera
+63,SITE-0063,Medan Kota,Medan Kota,Kota Medan,Sumatera Utara,Regional Sumatera
+64,SITE-0064,Medan Timur,Medan Timur,Kota Medan,Sumatera Utara,Regional Sumatera
+65,SITE-0065,Medan Sunggal,Medan Sunggal,Kota Medan,Sumatera Utara,Regional Sumatera
+66,SITE-0066,Pekanbaru Kota,Pekanbaru Kota,Kota Pekanbaru,Riau,Regional Sumatera
+67,SITE-0067,Tampan,Tampan,Kota Pekanbaru,Riau,Regional Sumatera
+68,SITE-0068,Payung Sekaki,Payung_Sekaki,Kota Pekanbaru,Riau,Regional Sumatera!!
+69,SITE-0069,Padang Barat,Padang Barat,Kota Padang,Sumatera Barat,Regional Sumatera
+70,SITE-0070,Padang Utara,Padang Utara,Kota Padang,Sumatera Barat,Regional Sumatera
+71,SITE-0071,Kuranji,Kuranji,KOTA PADANG,Sumatera Barat,Regional Sumatera
+72,SITE-0072,Bandar Lampung,Tanjung Karang Pusat,Kota Bandar Lampung,Lampung,Regional Sumatera
+73,SITE-0073,Kemiling,Kemiling,Kota Bandar Lampung,Lampung,Regional Sumatera
+74,SITE-0074,Pontianak Kota,Pontianak Kota,Kota Pontianak,Kalimantan Barat,Regional Kalimantan
+75,SITE-0075,Pontianak Selatan,Pontianak Selatan,Kota Pontianak,Kalimantan Barat,Regional Kalimantan
+76,SITE-0076,Balikpapan Barat,Balikpapan Barat,Kota Balikpapan,Kalimantan Timur,Regional Kalimantan
+77,SITE-0077,Balikpapan Selatan,Balikpapan Selatan,Kota Balikpapan,Kalimantan Timur,Regional Kalimantan
+78,SITE-0078,Samarinda Ulu,Samarinda Ulu,Kota Samarinda,Kalimantan Timur,Regional Kalimantan
+79,SITE-0079,Banjarmasin Barat,Banjarmasin Barat,Kota Banjarmasin,Kalimantan Selatan,Regional Kalimantan
+80,SITE-0080,Banjarmasin Tengah,Banjarmasin Tengah,Kota Banjarmasin,Kalimantan Selatan,Regional Kalimantan
+81,SITE-0081,Manado_Barat,Wenang,Kota_Manado,Sulawesi Utara,Regional Sulawesi & Papua
+82,SITE-0082,Tuminting,Tuminting,Kota Manado,Sulawesi Utara,Regional Sulawesi & Papua
+83,SITE-0083,Makassar,Makassar,Kota Makassar,Sulawesi Selatan,Regional Sulawesi & Papua
+84,SITE-0084,Ujung Pandang,Ujung Pandang,Kota Makassar,Sulawesi Selatan,Regional Sulawesi & Papua
+85,SITE-0085,Rappocini,RAPPOCINI,Kota Makassar,Sulawesi Selatan,Regional Sulawesi & Papua
+86,SITE-0086,Tamalanrea,Tamalanrea,Kota Makassar,Sulawesi Selatan,Regional Sulawesi & Papua
+87,SITE-0087,Kendari Barat,Kendari Barat,Kota Kendari,Sulawesi Tenggara,Regional Sulawesi & Papua
+88,SITE-0088,Palu Barat,Palu Barat,Kota Palu,Sulawesi Tengah,Regional Sulawesi & Papua
+89,SITE-0089,Abepura,Abepura,Kota Jayapura,Papua,Regional Sulawesi & Papua
+90,SITE-0090,Jayapura Utara,Jayapura Utara,Kota Jayapura,Papua,Regional Sulawesi & Papua
+91,SITE-0091,Denpasar Selatan,Denpasar Selatan,Kota Denpasar,Bali,Regional Bali & Nusra
+92,SITE-0092,Denpasar Barat,Denpasar Barat,Kota Denpasar,Bali,Regional Bali & Nusra
+93,SITE-0093,Denpasar Timur,Denpasar Timur,Kota Denpasar,Bali,Regional Bali & Nusra
+94,SITE-0094,Kuta,Kuta,Tidak Diketahui,Bali,Regional Bali & Nusra
+95,SITE-0095,Ubud,Ubud,Kab. Gianyar,Bali,Regional Bali & Nusra
+96,SITE-0096,Mataram,Mataram,Kota Mataram,NTB,Regional Bali & Nusra
+97,SITE-0097,Selaparang,Tidak Diketahui,Kota Mataram,NTB,Tidak Diketahui
+98,SITE-0098,Kupang Tengah,Kupang Tengah,Kota Kupang,NTT,Regional Bali & Nusra

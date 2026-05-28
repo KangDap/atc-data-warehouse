@@ -1,0 +1,8 @@
+table_name,pk_column,row_count,null_pk_count,duplicate_pk_count,duplicate_row_count,total_missing_values,is_pk_valid
+dim_channel_pembelian,id_channel,6,0,0,0,0,True
+dim_lokasi,id_lokasi,98,0,0,0,0,True
+dim_pelanggan,id_pelanggan,1000,0,0,0,71,True
+dim_produk,id_produk,50,0,0,0,0,True
+dim_status_transaksi,id_status,5,0,0,0,0,True
+dim_waktu,id_waktu,1096,0,0,0,26,True
+fact_transaksi_layanan,id_fakta,25926,0,0,0,0,True
