@@ -1,0 +1,8 @@
+table_name,row_count
+dim_channel_pembelian,6
+dim_lokasi,98
+dim_pelanggan,1000
+dim_produk,50
+dim_status_transaksi,5
+dim_waktu,1096
+fact_transaksi_layanan,25364

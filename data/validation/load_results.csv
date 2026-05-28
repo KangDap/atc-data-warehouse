@@ -1,0 +1,8 @@
+table_name,csv_row_count,db_row_count_after_load,is_row_count_match
+dim_channel_pembelian,6,6,True
+dim_lokasi,98,98,True
+dim_pelanggan,1000,1000,True
+dim_produk,50,50,True
+dim_status_transaksi,5,5,True
+dim_waktu,1096,1096,True
+fact_transaksi_layanan,25364,25364,True

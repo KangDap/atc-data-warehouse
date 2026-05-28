@@ -5,4 +5,4 @@ dim_pelanggan,id_pelanggan,1000,0,0,0,71,True
 dim_produk,id_produk,50,0,0,0,0,True
 dim_status_transaksi,id_status,5,0,0,0,0,True
 dim_waktu,id_waktu,1096,0,0,0,26,True
-fact_transaksi_layanan,id_fakta,25926,0,0,0,0,True
+fact_transaksi_layanan,id_fakta,25908,0,0,0,0,True
