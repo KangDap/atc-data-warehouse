@@ -1,0 +1,7 @@
+stage,status
+Extract profiling completed,True
+Processed CSV files created,True
+Primary keys valid,True
+Final fact unique constraints valid,True
+Supabase column validation passed,True
+Supabase row count validation passed,True

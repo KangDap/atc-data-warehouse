@@ -1,0 +1,8 @@
+table_name,row_count,column_count,columns
+dim_channel_pembelian,6,3,"id_channel, nama_channel, jenis_channel"
+dim_lokasi,98,7,"id_lokasi, site_id, kelurahan, kecamatan, kabupaten_kota, provinsi, regional"
+dim_pelanggan,1000,7,"id_pelanggan, nomor_hp, nama_pelanggan, jenis_layanan, jenis_kartu, tanggal_registrasi, status_aktif"
+dim_produk,50,6,"id_produk, kode_produk, nama_produk, jenis_produk, kategori_produk, harga"
+dim_status_transaksi,5,3,"id_status, kode_status, deskripsi_status"
+dim_waktu,1096,6,"id_waktu, tanggal_lengkap, hari, bulan, kuartal, tahun"
+fact_transaksi_layanan,25364,13,"id_fakta, id_waktu, id_pelanggan, id_produk, id_lokasi, id_channel, id_status, nomor_transaksi, jumlah_pembelian, total_harga, jumlah_data_mb, durasi_telpon_menit, jumlah_sms"

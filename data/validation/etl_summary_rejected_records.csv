@@ -1,0 +1,3 @@
+issue_type,file_name,rejected_row_count
+duplicate_transaction_number,rejected_fact_transaksi_layanan_duplicate_transaction.csv,18
+invalid_foreign_key,rejected_fact_transaksi_layanan_fk.csv,544
