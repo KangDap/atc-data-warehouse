@@ -1,0 +1,1386 @@
+<Batch xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+	<Create AllowOverwrite="true">
+		<ObjectDefinition>
+			<Database
+			  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			  xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2"
+			  xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2"
+			  xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100"
+			  xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200"
+			  xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200">
+
+				<Name>ATC_DW_CUBE</Name>
+				<Description>Data Warehouse OLAP Cube - PT. ATC Telekomunikasi (2022-2024)</Description>
+				<Language>1057</Language>
+				<Collation>Latin1_General_CI_AS</Collation>
+
+				<!-- ============================================================
+             DATA SOURCE
+             GANTI "Data Source=localhost" sesuai nama SQL Server lokal
+             ============================================================ -->
+				<DataSources>
+					<DataSource xsi:type="RelationalDataSource">
+						<ID>ATC_DW_DS</ID>
+						<Name>ATC DW</Name>
+						<ConnectionString>Provider=MSOLEDBSQL19.1;Data Source=localhost;Persist Security Info=False;Integrated Security=SSPI;User ID=;Initial Catalog=ATC_DW;Initial File Name=;Trust Server Certificate=True;Server SPN=;Authentication=;Access Token=;Host Name In Certificate=;Server Certificate=</ConnectionString>
+						<ImpersonationInfo>
+							<ImpersonationMode>ImpersonateCurrentUser</ImpersonationMode>
+						</ImpersonationInfo>
+					</DataSource>
+				</DataSources>
+
+				<!-- ============================================================
+             DATA SOURCE VIEW
+             Snapshot skema: semua tabel dan relasi FK
+             ============================================================ -->
+				<DataSourceViews>
+					<DataSourceView>
+						<ID>ATC_DW_DSV</ID>
+						<Name>ATC DW DSV</Name>
+						<DataSourceID>ATC_DW_DS</DataSourceID>
+						<Schema>
+							<xs:schema
+							  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+							  xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+							  xmlns:msprop="urn:schemas-microsoft-com:xml-msprop"
+							  xmlns:mstns="http://tempuri.org/ATC_DW_DSV"
+							  xmlns="http://tempuri.org/ATC_DW_DSV"
+							  id="ATC_DW_DSV"
+							  targetNamespace="http://tempuri.org/ATC_DW_DSV"
+							  elementFormDefault="qualified"
+							  attributeFormDefault="qualified">
+
+								<xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+									<xs:complexType>
+										<xs:choice minOccurs="0" maxOccurs="unbounded">
+
+											<!-- TABLE: dim_waktu -->
+											<xs:element name="dim_waktu"
+											  msprop:TableType="Table"
+											  msprop:DbTableName="dim_waktu"
+											  msprop:FriendlyName="dim_waktu">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element name="id_waktu"        type="xs:int"      minOccurs="0" msprop:DbColumnName="id_waktu"        msprop:DataType="int"  msprop:Nullable="false"/>
+														<xs:element name="tanggal_lengkap" type="xs:dateTime" minOccurs="0" msprop:DbColumnName="tanggal_lengkap" msprop:DataType="date" msprop:Nullable="true"/>
+														<xs:element name="hari"            type="xs:string"   minOccurs="0" msprop:DbColumnName="hari"            msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="bulan"           type="xs:string"   minOccurs="0" msprop:DbColumnName="bulan"           msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="kuartal"         type="xs:string"   minOccurs="0" msprop:DbColumnName="kuartal"         msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="tahun"           type="xs:int"      minOccurs="0" msprop:DbColumnName="tahun"           msprop:DataType="int"  msprop:Nullable="true"/>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+
+											<!-- TABLE: dim_pelanggan -->
+											<xs:element name="dim_pelanggan"
+											  msprop:TableType="Table"
+											  msprop:DbTableName="dim_pelanggan"
+											  msprop:FriendlyName="dim_pelanggan">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element name="id_pelanggan"       type="xs:int"    minOccurs="0" msprop:DbColumnName="id_pelanggan"       msprop:DataType="int"  msprop:Nullable="false"/>
+														<xs:element name="nomor_hp"           type="xs:string" minOccurs="0" msprop:DbColumnName="nomor_hp"           msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="nama_pelanggan"     type="xs:string" minOccurs="0" msprop:DbColumnName="nama_pelanggan"     msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="jenis_layanan"      type="xs:string" minOccurs="0" msprop:DbColumnName="jenis_layanan"      msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="jenis_kartu"        type="xs:string" minOccurs="0" msprop:DbColumnName="jenis_kartu"        msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="tanggal_registrasi" type="xs:dateTime" minOccurs="0" msprop:DbColumnName="tanggal_registrasi" msprop:DataType="date" msprop:Nullable="true"/>
+														<xs:element name="status_aktif"       type="xs:boolean" minOccurs="0" msprop:DbColumnName="status_aktif"      msprop:DataType="bit"  msprop:Nullable="true"/>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+
+											<!-- TABLE: dim_produk -->
+											<xs:element name="dim_produk"
+											  msprop:TableType="Table"
+											  msprop:DbTableName="dim_produk"
+											  msprop:FriendlyName="dim_produk">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element name="id_produk"       type="xs:int"    minOccurs="0" msprop:DbColumnName="id_produk"       msprop:DataType="int"  msprop:Nullable="false"/>
+														<xs:element name="kode_produk"     type="xs:string" minOccurs="0" msprop:DbColumnName="kode_produk"     msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="nama_produk"     type="xs:string" minOccurs="0" msprop:DbColumnName="nama_produk"     msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="jenis_produk"    type="xs:string" minOccurs="0" msprop:DbColumnName="jenis_produk"    msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="kategori_produk" type="xs:string" minOccurs="0" msprop:DbColumnName="kategori_produk" msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="harga"           type="xs:decimal" minOccurs="0" msprop:DbColumnName="harga"         msprop:DataType="decimal" msprop:Nullable="true"/>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+
+											<!-- TABLE: dim_lokasi -->
+											<xs:element name="dim_lokasi"
+											  msprop:TableType="Table"
+											  msprop:DbTableName="dim_lokasi"
+											  msprop:FriendlyName="dim_lokasi">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element name="id_lokasi"       type="xs:int"    minOccurs="0" msprop:DbColumnName="id_lokasi"       msprop:DataType="int"  msprop:Nullable="false"/>
+														<xs:element name="site_id"         type="xs:string" minOccurs="0" msprop:DbColumnName="site_id"         msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="kelurahan"       type="xs:string" minOccurs="0" msprop:DbColumnName="kelurahan"       msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="kecamatan"       type="xs:string" minOccurs="0" msprop:DbColumnName="kecamatan"       msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="kabupaten_kota"  type="xs:string" minOccurs="0" msprop:DbColumnName="kabupaten_kota"  msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="provinsi"        type="xs:string" minOccurs="0" msprop:DbColumnName="provinsi"        msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="regional"        type="xs:string" minOccurs="0" msprop:DbColumnName="regional"        msprop:DataType="nvarchar" msprop:Nullable="true"/>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+
+											<!-- TABLE: dim_channel_pembelian -->
+											<xs:element name="dim_channel_pembelian"
+											  msprop:TableType="Table"
+											  msprop:DbTableName="dim_channel_pembelian"
+											  msprop:FriendlyName="dim_channel_pembelian">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element name="id_channel"    type="xs:int"    minOccurs="0" msprop:DbColumnName="id_channel"    msprop:DataType="int"  msprop:Nullable="false"/>
+														<xs:element name="nama_channel"  type="xs:string" minOccurs="0" msprop:DbColumnName="nama_channel"  msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="jenis_channel" type="xs:string" minOccurs="0" msprop:DbColumnName="jenis_channel" msprop:DataType="nvarchar" msprop:Nullable="true"/>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+
+											<!-- TABLE: dim_status_transaksi -->
+											<xs:element name="dim_status_transaksi"
+											  msprop:TableType="Table"
+											  msprop:DbTableName="dim_status_transaksi"
+											  msprop:FriendlyName="dim_status_transaksi">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element name="id_status"         type="xs:int"    minOccurs="0" msprop:DbColumnName="id_status"         msprop:DataType="int"  msprop:Nullable="false"/>
+														<xs:element name="kode_status"       type="xs:string" minOccurs="0" msprop:DbColumnName="kode_status"       msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="deskripsi_status"  type="xs:string" minOccurs="0" msprop:DbColumnName="deskripsi_status"  msprop:DataType="nvarchar" msprop:Nullable="true"/>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+
+											<!-- TABLE: fact_transaksi_layanan -->
+											<xs:element name="fact_transaksi_layanan"
+											  msprop:TableType="Table"
+											  msprop:DbTableName="fact_transaksi_layanan"
+											  msprop:FriendlyName="fact_transaksi_layanan">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element name="id_fakta"              type="xs:int"     minOccurs="0" msprop:DbColumnName="id_fakta"              msprop:DataType="int"     msprop:Nullable="false"/>
+														<xs:element name="id_waktu"              type="xs:int"     minOccurs="0" msprop:DbColumnName="id_waktu"              msprop:DataType="int"     msprop:Nullable="true"/>
+														<xs:element name="id_pelanggan"          type="xs:int"     minOccurs="0" msprop:DbColumnName="id_pelanggan"          msprop:DataType="int"     msprop:Nullable="true"/>
+														<xs:element name="id_produk"             type="xs:int"     minOccurs="0" msprop:DbColumnName="id_produk"             msprop:DataType="int"     msprop:Nullable="true"/>
+														<xs:element name="id_lokasi"             type="xs:int"     minOccurs="0" msprop:DbColumnName="id_lokasi"             msprop:DataType="int"     msprop:Nullable="true"/>
+														<xs:element name="id_channel"            type="xs:int"     minOccurs="0" msprop:DbColumnName="id_channel"            msprop:DataType="int"     msprop:Nullable="true"/>
+														<xs:element name="id_status"             type="xs:int"     minOccurs="0" msprop:DbColumnName="id_status"             msprop:DataType="int"     msprop:Nullable="true"/>
+														<xs:element name="nomor_transaksi"       type="xs:string"  minOccurs="0" msprop:DbColumnName="nomor_transaksi"       msprop:DataType="nvarchar" msprop:Nullable="true"/>
+														<xs:element name="jumlah_pembelian"      type="xs:int"     minOccurs="0" msprop:DbColumnName="jumlah_pembelian"      msprop:DataType="int"     msprop:Nullable="true"/>
+														<xs:element name="total_harga"           type="xs:decimal" minOccurs="0" msprop:DbColumnName="total_harga"           msprop:DataType="decimal" msprop:Nullable="true"/>
+														<xs:element name="jumlah_data_mb"        type="xs:decimal" minOccurs="0" msprop:DbColumnName="jumlah_data_mb"        msprop:DataType="decimal" msprop:Nullable="true"/>
+														<xs:element name="durasi_telpon_menit"   type="xs:int"     minOccurs="0" msprop:DbColumnName="durasi_telpon_menit"   msprop:DataType="int"     msprop:Nullable="true"/>
+														<xs:element name="jumlah_sms"            type="xs:int"     minOccurs="0" msprop:DbColumnName="jumlah_sms"            msprop:DataType="int"     msprop:Nullable="true"/>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+
+										</xs:choice>
+									</xs:complexType>
+
+									<!-- PRIMARY KEY CONSTRAINTS -->
+									<xs:unique name="PK_dim_waktu"               msdata:PrimaryKey="true">
+										<xs:selector xpath=".//dim_waktu"/>
+										<xs:field xpath="id_waktu"/>
+									</xs:unique>
+									<xs:unique name="PK_dim_pelanggan"           msdata:PrimaryKey="true">
+										<xs:selector xpath=".//dim_pelanggan"/>
+										<xs:field xpath="id_pelanggan"/>
+									</xs:unique>
+									<xs:unique name="PK_dim_produk"              msdata:PrimaryKey="true">
+										<xs:selector xpath=".//dim_produk"/>
+										<xs:field xpath="id_produk"/>
+									</xs:unique>
+									<xs:unique name="PK_dim_lokasi"              msdata:PrimaryKey="true">
+										<xs:selector xpath=".//dim_lokasi"/>
+										<xs:field xpath="id_lokasi"/>
+									</xs:unique>
+									<xs:unique name="PK_dim_channel_pembelian"   msdata:PrimaryKey="true">
+										<xs:selector xpath=".//dim_channel_pembelian"/>
+										<xs:field xpath="id_channel"/>
+									</xs:unique>
+									<xs:unique name="PK_dim_status_transaksi"    msdata:PrimaryKey="true">
+										<xs:selector xpath=".//dim_status_transaksi"/>
+										<xs:field xpath="id_status"/>
+									</xs:unique>
+									<xs:unique name="PK_fact_transaksi_layanan"  msdata:PrimaryKey="true">
+										<xs:selector xpath=".//fact_transaksi_layanan"/>
+										<xs:field xpath="id_fakta"/>
+									</xs:unique>
+
+									<!-- FOREIGN KEY REFERENCES (Fact -> Dimensions) -->
+									<xs:keyref name="FK_fact_waktu"     refer="PK_dim_waktu">
+										<xs:selector xpath=".//fact_transaksi_layanan"/>
+										<xs:field xpath="id_waktu"/>
+									</xs:keyref>
+									<xs:keyref name="FK_fact_pelanggan" refer="PK_dim_pelanggan">
+										<xs:selector xpath=".//fact_transaksi_layanan"/>
+										<xs:field xpath="id_pelanggan"/>
+									</xs:keyref>
+									<xs:keyref name="FK_fact_produk"    refer="PK_dim_produk">
+										<xs:selector xpath=".//fact_transaksi_layanan"/>
+										<xs:field xpath="id_produk"/>
+									</xs:keyref>
+									<xs:keyref name="FK_fact_lokasi"    refer="PK_dim_lokasi">
+										<xs:selector xpath=".//fact_transaksi_layanan"/>
+										<xs:field xpath="id_lokasi"/>
+									</xs:keyref>
+									<xs:keyref name="FK_fact_channel"   refer="PK_dim_channel_pembelian">
+										<xs:selector xpath=".//fact_transaksi_layanan"/>
+										<xs:field xpath="id_channel"/>
+									</xs:keyref>
+									<xs:keyref name="FK_fact_status"    refer="PK_dim_status_transaksi">
+										<xs:selector xpath=".//fact_transaksi_layanan"/>
+										<xs:field xpath="id_status"/>
+									</xs:keyref>
+
+								</xs:element>
+							</xs:schema>
+						</Schema>
+					</DataSourceView>
+				</DataSourceViews>
+
+				<!-- ============================================================
+             DIMENSI
+             6 dimensi sesuai star schema ATC DW
+             ============================================================ -->
+				<Dimensions>
+					<Dimension>
+						<ID>Dim Waktu</ID>
+						<Name>Dim Waktu</Name>
+						<Source xsi:type="DataSourceViewBinding">
+							<DataSourceViewID>ATC_DW_DSV</DataSourceViewID>
+						</Source>
+						<Attributes>
+							<Attribute>
+								<ID>id_waktu</ID>
+								<Name>Id Waktu</Name>
+								<Usage>Key</Usage>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>Integer</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_waktu</TableID>
+											<ColumnID>id_waktu</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_waktu</TableID>
+										<ColumnID>tanggal_lengkap</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>tanggal_lengkap</ID>
+								<Name>Tanggal</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>Date</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_waktu</TableID>
+											<ColumnID>tanggal_lengkap</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_waktu</TableID>
+										<ColumnID>tanggal_lengkap</ColumnID>
+									</Source>
+								</NameColumn>
+								<AttributeRelationships>
+									<AttributeRelationship>
+										<AttributeID>bulan</AttributeID>
+									</AttributeRelationship>
+								</AttributeRelationships>
+							</Attribute>
+							<Attribute>
+								<ID>hari</ID>
+								<Name>Hari</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_waktu</TableID>
+											<ColumnID>hari</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_waktu</TableID>
+										<ColumnID>hari</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>bulan</ID>
+								<Name>Bulan</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_waktu</TableID>
+											<ColumnID>bulan</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_waktu</TableID>
+										<ColumnID>bulan</ColumnID>
+									</Source>
+								</NameColumn>
+								<AttributeRelationships>
+									<AttributeRelationship>
+										<AttributeID>kuartal</AttributeID>
+									</AttributeRelationship>
+								</AttributeRelationships>
+							</Attribute>
+							<Attribute>
+								<ID>kuartal</ID>
+								<Name>Kuartal</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_waktu</TableID>
+											<ColumnID>kuartal</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_waktu</TableID>
+										<ColumnID>kuartal</ColumnID>
+									</Source>
+								</NameColumn>
+								<AttributeRelationships>
+									<AttributeRelationship>
+										<AttributeID>tahun</AttributeID>
+									</AttributeRelationship>
+								</AttributeRelationships>
+							</Attribute>
+							<Attribute>
+								<ID>tahun</ID>
+								<Name>Tahun</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>Integer</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_waktu</TableID>
+											<ColumnID>tahun</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_waktu</TableID>
+										<ColumnID>tahun</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+						</Attributes>
+						<Hierarchies>
+							<Hierarchy>
+								<ID>Hierarki Waktu</ID>
+								<Name>Hierarki Waktu</Name>
+								<Levels>
+									<Level>
+										<ID>Tahun</ID>
+										<Name>Tahun</Name>
+										<SourceAttributeID>tahun</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Kuartal</ID>
+										<Name>Kuartal</Name>
+										<SourceAttributeID>kuartal</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Bulan</ID>
+										<Name>Bulan</Name>
+										<SourceAttributeID>bulan</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Tanggal</ID>
+										<Name>Tanggal</Name>
+										<SourceAttributeID>tanggal_lengkap</SourceAttributeID>
+									</Level>
+								</Levels>
+							</Hierarchy>
+						</Hierarchies>
+					</Dimension>
+
+					<Dimension>
+						<ID>Dim Pelanggan</ID>
+						<Name>Dim Pelanggan</Name>
+						<Source xsi:type="DataSourceViewBinding">
+							<DataSourceViewID>ATC_DW_DSV</DataSourceViewID>
+						</Source>
+						<Attributes>
+							<Attribute>
+								<ID>id_pelanggan</ID>
+								<Name>Id Pelanggan</Name>
+								<Usage>Key</Usage>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>Integer</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_pelanggan</TableID>
+											<ColumnID>id_pelanggan</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_pelanggan</TableID>
+										<ColumnID>nama_pelanggan</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>nama_pelanggan</ID>
+								<Name>Nama Pelanggan</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_pelanggan</TableID>
+											<ColumnID>nama_pelanggan</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_pelanggan</TableID>
+										<ColumnID>nama_pelanggan</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>nomor_hp</ID>
+								<Name>Nomor HP</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_pelanggan</TableID>
+											<ColumnID>nomor_hp</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_pelanggan</TableID>
+										<ColumnID>nomor_hp</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>jenis_layanan</ID>
+								<Name>Jenis Layanan</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_pelanggan</TableID>
+											<ColumnID>jenis_layanan</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_pelanggan</TableID>
+										<ColumnID>jenis_layanan</ColumnID>
+									</Source>
+								</NameColumn>
+								<AttributeRelationships>
+									<AttributeRelationship>
+										<AttributeID>jenis_kartu</AttributeID>
+									</AttributeRelationship>
+								</AttributeRelationships>
+							</Attribute>
+							<Attribute>
+								<ID>jenis_kartu</ID>
+								<Name>Jenis Kartu</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_pelanggan</TableID>
+											<ColumnID>jenis_kartu</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_pelanggan</TableID>
+										<ColumnID>jenis_kartu</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>status_aktif</ID>
+								<Name>Status Aktif</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_pelanggan</TableID>
+											<ColumnID>status_aktif</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_pelanggan</TableID>
+										<ColumnID>status_aktif</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>tanggal_registrasi</ID>
+								<Name>Tanggal Registrasi</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>Date</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_pelanggan</TableID>
+											<ColumnID>tanggal_registrasi</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_pelanggan</TableID>
+										<ColumnID>tanggal_registrasi</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+						</Attributes>
+						<Hierarchies>
+							<Hierarchy>
+								<ID>Hierarki Pelanggan</ID>
+								<Name>Hierarki Pelanggan</Name>
+								<Levels>
+									<Level>
+										<ID>Jenis Layanan</ID>
+										<Name>Jenis Layanan</Name>
+										<SourceAttributeID>jenis_layanan</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Jenis Kartu</ID>
+										<Name>Jenis Kartu</Name>
+										<SourceAttributeID>jenis_kartu</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Nama Pelanggan</ID>
+										<Name>Nama Pelanggan</Name>
+										<SourceAttributeID>nama_pelanggan</SourceAttributeID>
+									</Level>
+								</Levels>
+							</Hierarchy>
+						</Hierarchies>
+					</Dimension>
+
+					<Dimension>
+						<ID>Dim Produk</ID>
+						<Name>Dim Produk</Name>
+						<Source xsi:type="DataSourceViewBinding">
+							<DataSourceViewID>ATC_DW_DSV</DataSourceViewID>
+						</Source>
+						<Attributes>
+							<Attribute>
+								<ID>id_produk</ID>
+								<Name>Id Produk</Name>
+								<Usage>Key</Usage>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>Integer</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_produk</TableID>
+											<ColumnID>id_produk</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_produk</TableID>
+										<ColumnID>nama_produk</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>kode_produk</ID>
+								<Name>Kode Produk</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_produk</TableID>
+											<ColumnID>kode_produk</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_produk</TableID>
+										<ColumnID>kode_produk</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>nama_produk</ID>
+								<Name>Nama Produk</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_produk</TableID>
+											<ColumnID>nama_produk</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_produk</TableID>
+										<ColumnID>nama_produk</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>jenis_produk</ID>
+								<Name>Jenis Produk</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_produk</TableID>
+											<ColumnID>jenis_produk</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_produk</TableID>
+										<ColumnID>jenis_produk</ColumnID>
+									</Source>
+								</NameColumn>
+								<AttributeRelationships>
+									<AttributeRelationship>
+										<AttributeID>kategori_produk</AttributeID>
+									</AttributeRelationship>
+								</AttributeRelationships>
+							</Attribute>
+							<Attribute>
+								<ID>kategori_produk</ID>
+								<Name>Kategori Produk</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_produk</TableID>
+											<ColumnID>kategori_produk</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_produk</TableID>
+										<ColumnID>kategori_produk</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>harga</ID>
+								<Name>Harga Satuan</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>Double</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_produk</TableID>
+											<ColumnID>harga</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_produk</TableID>
+										<ColumnID>harga</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+						</Attributes>
+						<Hierarchies>
+							<Hierarchy>
+								<ID>Hierarki Produk</ID>
+								<Name>Hierarki Produk</Name>
+								<Levels>
+									<Level>
+										<ID>Kategori</ID>
+										<Name>Kategori</Name>
+										<SourceAttributeID>kategori_produk</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Jenis Produk</ID>
+										<Name>Jenis Produk</Name>
+										<SourceAttributeID>jenis_produk</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Nama Produk</ID>
+										<Name>Nama Produk</Name>
+										<SourceAttributeID>nama_produk</SourceAttributeID>
+									</Level>
+								</Levels>
+							</Hierarchy>
+						</Hierarchies>
+					</Dimension>
+
+					<Dimension>
+						<ID>Dim Lokasi</ID>
+						<Name>Dim Lokasi</Name>
+						<Source xsi:type="DataSourceViewBinding">
+							<DataSourceViewID>ATC_DW_DSV</DataSourceViewID>
+						</Source>
+						<Attributes>
+							<Attribute>
+								<ID>id_lokasi</ID>
+								<Name>Id Lokasi</Name>
+								<Usage>Key</Usage>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>Integer</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_lokasi</TableID>
+											<ColumnID>id_lokasi</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_lokasi</TableID>
+										<ColumnID>kelurahan</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>site_id</ID>
+								<Name>Site ID</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_lokasi</TableID>
+											<ColumnID>site_id</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_lokasi</TableID>
+										<ColumnID>site_id</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>kelurahan</ID>
+								<Name>Kelurahan</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_lokasi</TableID>
+											<ColumnID>kelurahan</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_lokasi</TableID>
+										<ColumnID>kelurahan</ColumnID>
+									</Source>
+								</NameColumn>
+								<AttributeRelationships>
+									<AttributeRelationship>
+										<AttributeID>kecamatan</AttributeID>
+									</AttributeRelationship>
+								</AttributeRelationships>
+							</Attribute>
+							<Attribute>
+								<ID>kecamatan</ID>
+								<Name>Kecamatan</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_lokasi</TableID>
+											<ColumnID>kecamatan</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_lokasi</TableID>
+										<ColumnID>kecamatan</ColumnID>
+									</Source>
+								</NameColumn>
+								<AttributeRelationships>
+									<AttributeRelationship>
+										<AttributeID>kabupaten_kota</AttributeID>
+									</AttributeRelationship>
+								</AttributeRelationships>
+							</Attribute>
+							<Attribute>
+								<ID>kabupaten_kota</ID>
+								<Name>Kabupaten Kota</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_lokasi</TableID>
+											<ColumnID>kabupaten_kota</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_lokasi</TableID>
+										<ColumnID>kabupaten_kota</ColumnID>
+									</Source>
+								</NameColumn>
+								<AttributeRelationships>
+									<AttributeRelationship>
+										<AttributeID>provinsi</AttributeID>
+									</AttributeRelationship>
+								</AttributeRelationships>
+							</Attribute>
+							<Attribute>
+								<ID>provinsi</ID>
+								<Name>Provinsi</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_lokasi</TableID>
+											<ColumnID>provinsi</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_lokasi</TableID>
+										<ColumnID>provinsi</ColumnID>
+									</Source>
+								</NameColumn>
+								<AttributeRelationships>
+									<AttributeRelationship>
+										<AttributeID>regional</AttributeID>
+									</AttributeRelationship>
+								</AttributeRelationships>
+							</Attribute>
+							<Attribute>
+								<ID>regional</ID>
+								<Name>Regional</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_lokasi</TableID>
+											<ColumnID>regional</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_lokasi</TableID>
+										<ColumnID>regional</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+						</Attributes>
+						<Hierarchies>
+							<Hierarchy>
+								<ID>Hierarki Lokasi</ID>
+								<Name>Hierarki Lokasi</Name>
+								<Levels>
+									<Level>
+										<ID>Regional</ID>
+										<Name>Regional</Name>
+										<SourceAttributeID>regional</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Provinsi</ID>
+										<Name>Provinsi</Name>
+										<SourceAttributeID>provinsi</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Kab Kota</ID>
+										<Name>Kab Kota</Name>
+										<SourceAttributeID>kabupaten_kota</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Kecamatan</ID>
+										<Name>Kecamatan</Name>
+										<SourceAttributeID>kecamatan</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Kelurahan</ID>
+										<Name>Kelurahan</Name>
+										<SourceAttributeID>kelurahan</SourceAttributeID>
+									</Level>
+								</Levels>
+							</Hierarchy>
+						</Hierarchies>
+					</Dimension>
+
+					<Dimension>
+						<ID>Dim Channel Pembelian</ID>
+						<Name>Dim Channel Pembelian</Name>
+						<Source xsi:type="DataSourceViewBinding">
+							<DataSourceViewID>ATC_DW_DSV</DataSourceViewID>
+						</Source>
+						<Attributes>
+							<Attribute>
+								<ID>id_channel</ID>
+								<Name>Id Channel</Name>
+								<Usage>Key</Usage>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>Integer</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_channel_pembelian</TableID>
+											<ColumnID>id_channel</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_channel_pembelian</TableID>
+										<ColumnID>nama_channel</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>nama_channel</ID>
+								<Name>Nama Channel</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_channel_pembelian</TableID>
+											<ColumnID>nama_channel</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_channel_pembelian</TableID>
+										<ColumnID>nama_channel</ColumnID>
+									</Source>
+								</NameColumn>
+								<AttributeRelationships>
+									<AttributeRelationship>
+										<AttributeID>jenis_channel</AttributeID>
+									</AttributeRelationship>
+								</AttributeRelationships>
+							</Attribute>
+							<Attribute>
+								<ID>jenis_channel</ID>
+								<Name>Jenis Channel</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_channel_pembelian</TableID>
+											<ColumnID>jenis_channel</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_channel_pembelian</TableID>
+										<ColumnID>jenis_channel</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+						</Attributes>
+						<Hierarchies>
+							<Hierarchy>
+								<ID>Hierarki Channel</ID>
+								<Name>Hierarki Channel</Name>
+								<Levels>
+									<Level>
+										<ID>Jenis Channel</ID>
+										<Name>Jenis Channel</Name>
+										<SourceAttributeID>jenis_channel</SourceAttributeID>
+									</Level>
+									<Level>
+										<ID>Nama Channel</ID>
+										<Name>Nama Channel</Name>
+										<SourceAttributeID>nama_channel</SourceAttributeID>
+									</Level>
+								</Levels>
+							</Hierarchy>
+						</Hierarchies>
+					</Dimension>
+
+					<Dimension>
+						<ID>Dim Status Transaksi</ID>
+						<Name>Dim Status Transaksi</Name>
+						<Source xsi:type="DataSourceViewBinding">
+							<DataSourceViewID>ATC_DW_DSV</DataSourceViewID>
+						</Source>
+						<Attributes>
+							<Attribute>
+								<ID>id_status</ID>
+								<Name>Id Status</Name>
+								<Usage>Key</Usage>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>Integer</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_status_transaksi</TableID>
+											<ColumnID>id_status</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_status_transaksi</TableID>
+										<ColumnID>deskripsi_status</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+							<Attribute>
+								<ID>kode_status</ID>
+								<Name>Kode Status</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_status_transaksi</TableID>
+											<ColumnID>kode_status</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_status_transaksi</TableID>
+										<ColumnID>kode_status</ColumnID>
+									</Source>
+								</NameColumn>
+								<AttributeRelationships>
+									<AttributeRelationship>
+										<AttributeID>deskripsi_status</AttributeID>
+									</AttributeRelationship>
+								</AttributeRelationships>
+							</Attribute>
+							<Attribute>
+								<ID>deskripsi_status</ID>
+								<Name>Deskripsi Status</Name>
+								<KeyColumns>
+									<KeyColumn>
+										<DataType>WChar</DataType>
+										<Source xsi:type="ColumnBinding">
+											<TableID>dim_status_transaksi</TableID>
+											<ColumnID>deskripsi_status</ColumnID>
+										</Source>
+									</KeyColumn>
+								</KeyColumns>
+								<NameColumn>
+									<DataType>WChar</DataType>
+									<Source xsi:type="ColumnBinding">
+										<TableID>dim_status_transaksi</TableID>
+										<ColumnID>deskripsi_status</ColumnID>
+									</Source>
+								</NameColumn>
+							</Attribute>
+						</Attributes>
+					</Dimension>
+				</Dimensions>
+
+				<Cubes>
+					<Cube>
+						<ID>ATC Cube</ID>
+						<Name>ATC Cube</Name>
+						<Source xsi:type="DataSourceViewBinding">
+							<DataSourceViewID>ATC_DW_DSV</DataSourceViewID>
+						</Source>
+
+						<MeasureGroups>
+							<MeasureGroup>
+								<ID>Transaksi Layanan</ID>
+								<Name>Transaksi Layanan</Name>
+								<Measures>
+									<Measure>
+										<ID>Jumlah Transaksi</ID>
+										<Name>Jumlah Transaksi</Name>
+										<AggregateFunction>Count</AggregateFunction>
+										<Source>
+											<DataType>Integer</DataType>
+											<Source xsi:type="ColumnBinding">
+												<TableID>fact_transaksi_layanan</TableID>
+												<ColumnID>id_fakta</ColumnID>
+											</Source>
+										</Source>
+									</Measure>
+									<Measure>
+										<ID>Total Harga</ID>
+										<Name>Total Harga Rp</Name>
+										<AggregateFunction>Sum</AggregateFunction>
+										<Source>
+											<DataType>Double</DataType>
+											<Source xsi:type="ColumnBinding">
+												<TableID>fact_transaksi_layanan</TableID>
+												<ColumnID>total_harga</ColumnID>
+											</Source>
+										</Source>
+									</Measure>
+									<Measure>
+										<ID>Jumlah Pembelian</ID>
+										<Name>Jumlah Pembelian</Name>
+										<AggregateFunction>Sum</AggregateFunction>
+										<Source>
+											<DataType>Integer</DataType>
+											<Source xsi:type="ColumnBinding">
+												<TableID>fact_transaksi_layanan</TableID>
+												<ColumnID>jumlah_pembelian</ColumnID>
+											</Source>
+										</Source>
+									</Measure>
+									<Measure>
+										<ID>Total Data MB</ID>
+										<Name>Total Data MB</Name>
+										<AggregateFunction>Sum</AggregateFunction>
+										<Source>
+											<DataType>Double</DataType>
+											<Source xsi:type="ColumnBinding">
+												<TableID>fact_transaksi_layanan</TableID>
+												<ColumnID>jumlah_data_mb</ColumnID>
+											</Source>
+										</Source>
+									</Measure>
+									<Measure>
+										<ID>Total Durasi Telepon</ID>
+										<Name>Total Durasi Telepon Menit</Name>
+										<AggregateFunction>Sum</AggregateFunction>
+										<Source>
+											<DataType>Integer</DataType>
+											<Source xsi:type="ColumnBinding">
+												<TableID>fact_transaksi_layanan</TableID>
+												<ColumnID>durasi_telpon_menit</ColumnID>
+											</Source>
+										</Source>
+									</Measure>
+									<Measure>
+										<ID>Total SMS</ID>
+										<Name>Total SMS</Name>
+										<AggregateFunction>Sum</AggregateFunction>
+										<Source>
+											<DataType>Integer</DataType>
+											<Source xsi:type="ColumnBinding">
+												<TableID>fact_transaksi_layanan</TableID>
+												<ColumnID>jumlah_sms</ColumnID>
+											</Source>
+										</Source>
+									</Measure>
+								</Measures>
+
+								<Dimensions>
+									<Dimension xsi:type="RegularMeasureGroupDimension">
+										<CubeDimensionID>Dim Waktu</CubeDimensionID>
+										<Attributes>
+											<Attribute>
+												<AttributeID>id_waktu</AttributeID>
+												<Type>Granularity</Type>
+												<KeyColumns>
+													<KeyColumn>
+														<DataType>Integer</DataType>
+														<Source xsi:type="ColumnBinding">
+															<TableID>fact_transaksi_layanan</TableID>
+															<ColumnID>id_waktu</ColumnID>
+														</Source>
+													</KeyColumn>
+												</KeyColumns>
+											</Attribute>
+										</Attributes>
+									</Dimension>
+									<Dimension xsi:type="RegularMeasureGroupDimension">
+										<CubeDimensionID>Dim Pelanggan</CubeDimensionID>
+										<Attributes>
+											<Attribute>
+												<AttributeID>id_pelanggan</AttributeID>
+												<Type>Granularity</Type>
+												<KeyColumns>
+													<KeyColumn>
+														<DataType>Integer</DataType>
+														<Source xsi:type="ColumnBinding">
+															<TableID>fact_transaksi_layanan</TableID>
+															<ColumnID>id_pelanggan</ColumnID>
+														</Source>
+													</KeyColumn>
+												</KeyColumns>
+											</Attribute>
+										</Attributes>
+									</Dimension>
+									<Dimension xsi:type="RegularMeasureGroupDimension">
+										<CubeDimensionID>Dim Produk</CubeDimensionID>
+										<Attributes>
+											<Attribute>
+												<AttributeID>id_produk</AttributeID>
+												<Type>Granularity</Type>
+												<KeyColumns>
+													<KeyColumn>
+														<DataType>Integer</DataType>
+														<Source xsi:type="ColumnBinding">
+															<TableID>fact_transaksi_layanan</TableID>
+															<ColumnID>id_produk</ColumnID>
+														</Source>
+													</KeyColumn>
+												</KeyColumns>
+											</Attribute>
+										</Attributes>
+									</Dimension>
+									<Dimension xsi:type="RegularMeasureGroupDimension">
+										<CubeDimensionID>Dim Lokasi</CubeDimensionID>
+										<Attributes>
+											<Attribute>
+												<AttributeID>id_lokasi</AttributeID>
+												<Type>Granularity</Type>
+												<KeyColumns>
+													<KeyColumn>
+														<DataType>Integer</DataType>
+														<Source xsi:type="ColumnBinding">
+															<TableID>fact_transaksi_layanan</TableID>
+															<ColumnID>id_lokasi</ColumnID>
+														</Source>
+													</KeyColumn>
+												</KeyColumns>
+											</Attribute>
+										</Attributes>
+									</Dimension>
+									<Dimension xsi:type="RegularMeasureGroupDimension">
+										<CubeDimensionID>Dim Channel Pembelian</CubeDimensionID>
+										<Attributes>
+											<Attribute>
+												<AttributeID>id_channel</AttributeID>
+												<Type>Granularity</Type>
+												<KeyColumns>
+													<KeyColumn>
+														<DataType>Integer</DataType>
+														<Source xsi:type="ColumnBinding">
+															<TableID>fact_transaksi_layanan</TableID>
+															<ColumnID>id_channel</ColumnID>
+														</Source>
+													</KeyColumn>
+												</KeyColumns>
+											</Attribute>
+										</Attributes>
+									</Dimension>
+									<Dimension xsi:type="RegularMeasureGroupDimension">
+										<CubeDimensionID>Dim Status Transaksi</CubeDimensionID>
+										<Attributes>
+											<Attribute>
+												<AttributeID>id_status</AttributeID>
+												<Type>Granularity</Type>
+												<KeyColumns>
+													<KeyColumn>
+														<DataType>Integer</DataType>
+														<Source xsi:type="ColumnBinding">
+															<TableID>fact_transaksi_layanan</TableID>
+															<ColumnID>id_status</ColumnID>
+														</Source>
+													</KeyColumn>
+												</KeyColumns>
+											</Attribute>
+										</Attributes>
+									</Dimension>
+								</Dimensions>
+
+								<Partitions>
+									<Partition>
+										<ID>ATC_Fact_Partition</ID>
+										<Name>ATC Fact Partition</Name>
+										<Source xsi:type="TableBinding">
+											<DataSourceID>ATC_DW_DS</DataSourceID>
+											<DbTableName>fact_transaksi_layanan</DbTableName>
+										</Source>
+									</Partition>
+								</Partitions>
+							</MeasureGroup>
+						</MeasureGroups>
+
+						<Dimensions>
+							<Dimension>
+								<ID>Dim Waktu</ID>
+								<Name>Dim Waktu</Name>
+								<DimensionID>Dim Waktu</DimensionID>
+							</Dimension>
+							<Dimension>
+								<ID>Dim Pelanggan</ID>
+								<Name>Dim Pelanggan</Name>
+								<DimensionID>Dim Pelanggan</DimensionID>
+							</Dimension>
+							<Dimension>
+								<ID>Dim Produk</ID>
+								<Name>Dim Produk</Name>
+								<DimensionID>Dim Produk</DimensionID>
+							</Dimension>
+							<Dimension>
+								<ID>Dim Lokasi</ID>
+								<Name>Dim Lokasi</Name>
+								<DimensionID>Dim Lokasi</DimensionID>
+							</Dimension>
+							<Dimension>
+								<ID>Dim Channel Pembelian</ID>
+								<Name>Dim Channel Pembelian</Name>
+								<DimensionID>Dim Channel Pembelian</DimensionID>
+							</Dimension>
+							<Dimension>
+								<ID>Dim Status Transaksi</ID>
+								<Name>Dim Status Transaksi</Name>
+								<DimensionID>Dim Status Transaksi</DimensionID>
+							</Dimension>
+						</Dimensions>
+					</Cube>
+				</Cubes>
+
+			</Database>
+		</ObjectDefinition>
+	</Create>
+</Batch>

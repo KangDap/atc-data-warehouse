@@ -1,1 +1,6 @@
 .env
+
+*.mdf
+*.ldf
+*.ndf
+*.bak
